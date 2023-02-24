@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/welsh/static/css/main.1fc5c631.css",
+    "main.js": "/welsh/static/js/main.91c8de6c.js",
+    "static/js/787.b37b0b13.chunk.js": "/welsh/static/js/787.b37b0b13.chunk.js",
+    "index.html": "/welsh/index.html",
+    "static/media/medal-outline.svg": "/welsh/static/media/medal-outline.cc95e029b6b8da1a4b9b8ef67aadc42d.svg",
+    "static/media/call-outline.svg": "/welsh/static/media/call-outline.0f00460152e4a645e39332dd668e2e7d.svg",
+    "static/media/logo-linkedin.svg": "/welsh/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
+    "static/media/logo-facebook.svg": "/welsh/static/media/logo-facebook.84318d1245b58f3c15c8fe7a85568b74.svg",
+    "static/media/mail-outline.svg": "/welsh/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
+    "main.1fc5c631.css.map": "/welsh/static/css/main.1fc5c631.css.map",
+    "main.91c8de6c.js.map": "/welsh/static/js/main.91c8de6c.js.map",
+    "787.b37b0b13.chunk.js.map": "/welsh/static/js/787.b37b0b13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fc5c631.css",
+    "static/js/main.91c8de6c.js"
+  ]
+}
