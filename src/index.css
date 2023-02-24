@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@ionic/react/css/core.css;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@heroicons/react/24/outline;
+@headlessui/react;

@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+:root {
+    --ionicon-stroke-width: 32px;
+    --ion-color-primary: #0fa;
+    --ion-color-secondary: #fa0;
+    --ion-color-tertiary: #f4a942;
+    --ion-color-success: #10dc60;
+    --ion-color-warning: #ffce00;
+    --ion-color-danger: #f14141;
+    --ion-color-light: #f4f5f8;
+    --ion-color-medium: #989aa2;
+    --ion-color-dark: #222428;
+}
