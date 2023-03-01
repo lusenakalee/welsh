@@ -8,6 +8,8 @@ import medalIcon from "../assets/medal-outline.svg";
 
 import { useState } from "react";
 import {HashLink as Link} from "react-router-hash-link"
+import MapContainer from "../components/MapContainer";
+
 
 
 
@@ -26,9 +28,9 @@ const[show,setShow]=useState(false);
             style={{
               minHeight: "75vh"
             }}>
-          <div className="absolute top-0 w-full h-full bg-center bg-cover"
+          <div className="absolute top-0 w-full h-full bg-center bg-cover bg-black"
               style={{
-                backgroundImage: "url('https://images.pexels.com/photos/8112199/pexels-photo-8112199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"
+               
               }}>
             <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
           </div>
@@ -38,7 +40,7 @@ const[show,setShow]=useState(false);
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="items-center flex flex-wrap justify-center">
                   <img src={cwgLogo} alt="cwgLogo"/>
-                  <h1 className="text-white font-semibold text-5xl font-sherif flex ">Expert Knowledge & Commercially Aware</h1>
+                  <h3 className="text-white font-semibold  font-sherif text-3xl w-full">Expert Knowledge & Commercially Aware</h3>
                  </div>
                   <div className="pr-12">                    
                     <p className="mt-4 text-lg text-gray-300">
@@ -106,9 +108,11 @@ const[show,setShow]=useState(false);
                     <p className="mt-2 mb-4 text-gray-600">
                       Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.
                     </p>
+                    <a href="/OurProfile">
                     <h6 className="text-sm font-semibold ">
                       Learn more<span aria-hidden="true">&rarr;</span>
                     </h6>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -156,12 +160,11 @@ const[show,setShow]=useState(false);
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
                   
                 </p>
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
+                <Link smooth to='#ContactSection'
                   className="font-bold text-red-700 mt-8"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -333,7 +336,7 @@ const[show,setShow]=useState(false);
         </section>
 
 
-        <section className="pt-20 pb-48">
+        <section className="pt-20 pb-48"id="AttorneysSect">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -347,6 +350,7 @@ const[show,setShow]=useState(false);
                 </p>
               </div>
             </div>
+            
             <div className="flex flex-wrap">
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
@@ -884,7 +888,7 @@ const[show,setShow]=useState(false);
           </div>
         </section>
 
-        <section className="pb-20 relative block bg-neutral-900">
+        <section className="pb-20 relative block bg-black">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px" }}
@@ -899,7 +903,7 @@ const[show,setShow]=useState(false);
               y="0"
             >
               <polygon
-                className="text-neutral-900 fill-current"
+                className="text-black fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -1232,7 +1236,8 @@ const[show,setShow]=useState(false);
         <section className="relative block py-24 lg:pt-0 bg-neutral-900" id="ContactSection">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-              <div className="w-full lg:w-6/12 px-4">
+              <div className="w-full lg:w-6/12 px-4  flex flex-wrap" >
+                
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
@@ -1299,6 +1304,7 @@ const[show,setShow]=useState(false);
               </div>
             </div>
           </div>
+          
         </section>
         <Footer/>
       </main>

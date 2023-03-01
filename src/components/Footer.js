@@ -2,6 +2,7 @@ import mailIcon from "../assets/mail-outline.svg"
 import FbLogo from "../assets/logo-facebook.svg"
 import LnLogo from "../assets/logo-linkedin.svg"
 import callIcon from "../assets/call-outline.svg"
+import tester from "../assets/tester.pdf"
 
 
 export default function Footer() {
@@ -37,30 +38,30 @@ export default function Footer() {
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
               <div className="mt-6">
+                <a href="mailto:edkins@cwg.co.zw">
                 <button
                   className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
-                  <img src={mailIcon} alt="call icon" />
+                  <img src={mailIcon} alt="mail icon" />
                 </button>
+                </a>
+                <a href="https://www.linkedin.com/company/coghlan-welsh-and-guest/">
                 <button
                   className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
                   <img src={LnLogo} alt="LnLogo" />
                 </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <img src={FbLogo} alt="FbLogo" />
-                </button>
+                </a>
+                <a href="tel:+263242794930">
                 <button
                   className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
                    <img src={callIcon} alt="callIcon" />
                 </button>
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -72,17 +73,17 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://www.creative-tim.com/presentation">About Us
+                         href="/">Home
                       </a>
                     </li>
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://blog.creative-tim.com">Blog
+                         href="/OurProfile">About Us
                       </a>
                     </li>
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://www.github.com/creativetimofficial">Github
+                         href="/Insights">Insights
                       </a>
                     </li>
                     <li>
@@ -95,12 +96,12 @@ export default function Footer() {
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                    Other Resources
+                    Downloads
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License
+                      href={tester} download={tester}>Abstract
                     </a>
                     </li>
                     <li>
@@ -113,11 +114,7 @@ export default function Footer() {
                          href="https://creative-tim.com/privacy">Privacy Policy
                       </a>
                     </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://creative-tim.com/contact-us">Contact Us
-                      </a>
-                    </li>
+                    
                   </ul>
 
                 </div>
