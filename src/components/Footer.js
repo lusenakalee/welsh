@@ -127,7 +127,7 @@ export default function Footer() {
               <div className="text-sm text-gray-600 font-semibold py-1">
                 Copyright © {new Date().getFullYear()}{" "}Coghlan, Welsh & Guest by{" "}
                 <a
-                  href="https://www.creative-tim.com"
+                  href="mailto:lusenakalee@gmail.com"
                   className="text-gray-600 hover:text-gray-900"
                 >
                   Leroy Lusenaka
