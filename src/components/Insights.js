@@ -18,16 +18,14 @@ function Insights() {
   >
     <div class="max-w-xl text-center sm:text-left">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
-        Let us find your
-
-        <strong class="block font-extrabold text-rose-700">
-          Forever Home.
+      keeping you informed
+        <strong class="block font-extrabold text-red-700">
+        on the latest legal developments.
         </strong>
       </h1>
 
       <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-        tenetur fuga ducimus numquam ea!
+      At Coghlan, Welsh & Guest, we are committed to providing our clients and our community with valuable information and resources on the latest legal developments and trends. 
       </p>
 
       <div class="mt-8 flex flex-wrap gap-4 text-center">
@@ -40,13 +38,13 @@ function Insights() {
 
         <a
           href="/News"
-          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-red-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           News
         </a>
         <a
           href="/Archives"
-          class="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+          class="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
         >
           Archives
         </a>
