@@ -34,7 +34,7 @@ function App() {
           <Route path="OurProfile" element={<OurProfile/>} />
           <Route path="News" element={<News/>} />
           <Route path="Archives" element={<Archives/>} />
-          <Route path="Ablog" element={<Ablog/>} />
+          <Route path="Blog" element={<Blog/>} />
         </Routes>
       </BrowserRouter>
     );
