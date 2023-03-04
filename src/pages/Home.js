@@ -5,16 +5,17 @@ import callIcon from "../assets/call-outline.svg";
 import mailIcon from "../assets/mail-outline.svg";
 import cwgLogo from "../assets/cwgLogo.png";
 import medalIcon from "../assets/medal-outline.svg";
+import OurHistory from "./OurHistory";
 
 import { useState } from "react";
 import {HashLink as Link} from "react-router-hash-link"
 import MapContainer from "../components/MapContainer";
-
+import SwiperTeams from "../components/SwiperTeams";
+import ExpertiseAccordion from "../components/ExpertiseAccordion";
 
 
 
 export default function Landing() {
-
 
 const [showModal, setShowModal] = React.useState(false);
 const[show,setShow]=useState(false);
@@ -28,11 +29,11 @@ const[show,setShow]=useState(false);
             style={{
               minHeight: "75vh"
             }}>
-          <div className="absolute top-0 w-full h-full bg-center bg-cover bg-black"
+          <div className="absolute top-0 w-full h-full bg-center bg-cover"
               style={{
-               
+                backgroundImage: "url('https://images.pexels.com/photos/6077381/pexels-photo-6077381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"
               }}>
-            <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
+            <span id="blackOverlay" className="w-full h-full absolute opacity-50 bg-black"></span>
           </div>
           
           <div className="container relative mx-auto">
@@ -86,12 +87,13 @@ const[show,setShow]=useState(false);
                     </div>
                     <h6 className="text-xl font-semibold">Our History</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
-                      No other legal firm in Zimbabwe can claim to have been so closely associated with the legal, political and ....
+                    Over the years, we have built a reputation for excellence and have established ourselves as a trusted legal resource in our community. Our team of experienced lawyers has helped countless clients to achieve their legal goals, and we are proud of the positive impact we have had on our clients' lives.
                     </p>
+                    <a href="/OurHistory">
                     <h6 className="text-sm font-semibold ">
                       Learn more<span aria-hidden="true">&rarr;</span>
                     </h6>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -106,7 +108,7 @@ const[show,setShow]=useState(false);
                       Our Profile
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.
+                    If you are in need of legal representation, we encourage you to learn more about our firm and how we can help you. We are here to provide the legal support and guidance you need to achieve a successful outcome.
                     </p>
                     <a href="/OurProfile">
                     <h6 className="text-sm font-semibold ">
@@ -121,14 +123,13 @@ const[show,setShow]=useState(false);
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
-                    <ion-icon size="large" name="shield-half"></ion-icon>
+                    <ion-icon size="large" name="library"></ion-icon>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Our Values
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
-                      These are the guiding principles that drive our organization forward. We are proud of our commitment ...
+                    At our law firm, our values are rooted in our commitment to providing exceptional legal services to our clients.
                     </p>
                     
                     <h6 className="text-sm font-semibold ">
@@ -140,7 +141,6 @@ const[show,setShow]=useState(false);
                 </div>
               </div>
             </div>
-
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
@@ -191,12 +191,10 @@ const[show,setShow]=useState(false);
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-gray-900">
-                      Top Notch Services
+                    Advocating for Your Rights
                     </h4>
                     <p className="text-md font-light mt-2 text-gray-700">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                    Our law firm is dedicated to providing exceptional legal services to our clients. We take pride in our commitment to excellence and our ability to achieve successful outcomes for our clients. Our team of experienced lawyers is skilled in a wide range of practice areas, including personal injury, workers' compensation, employment law, and more.
                     </p>
                   </blockquote>
                 </div>
@@ -335,8 +333,8 @@ const[show,setShow]=useState(false);
           </div>
         </section>
 
-
-        <section className="pt-20 pb-48"id="AttorneysSect">
+        
+        <section className="pt-20 pb-0.5"id="AttorneysSect">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -350,543 +348,14 @@ const[show,setShow]=useState(false);
                 </p>
               </div>
             </div>
-            
-            <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-1.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=FRASER A. EDKINS">
-                    <h5 className="text-xl font-bold">
-                    FRASER A. EDKINS
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Senior Partner
-                    </p>
-                    <div className="mt-6">
-                      <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                      
-                    </div>
-                  </div>
-                </div>
-
-                
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-2.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                    <Link className="Thembiwe"to="/PROFILE?name=THEMBIWE C. MAZINGI">
-                    <h5 className="text-xl font-bold">
-                      THEMBIWE C. MAZINGI
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Managing Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-4.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=MARGARET L. TAYLOR">
-                    <h5 className="text-xl font-bold">
-                    MARGARET L. TAYLOR
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-7.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=DAVID C. DHUMBURA">
-                    <h5 className="text-xl font-bold">
-                     DAVID C. DHUMBURA
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {show?
-              <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-3.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name= NOKUTHULA MOYO">
-                    <h5 className="text-xl font-bold">
-                    NOKUTHULA MOYO
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-5.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name= ANDREW P. LANE-MITCHELL">
-                    <h5 className="text-xl font-bold">
-                    ANDREW P. LANE-MITCHELL
-                    </h5>
-                  </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-9.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=WELLINGTON MAGAYA">
-                    <h5 className="text-xl font-bold">
-                    WELLINGTON MAGAYA
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic10.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=NYADZISAI MATLIDA CHIKWENE">
-                    <h5 className="text-xl font-bold">
-                    NYADZISAI MATLIDA CHIKWENE
-                    </h5>
-                  </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-13.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=IAN T. CHAKAWATA">
-                    <h5 className="text-xl font-bold">
-                    IAN T. CHAKAWATA
-                    </h5>
-                  </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-14.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=DANIEL T. M. MATAWU">
-                    <h5 className="text-xl font-bold">
-                    DANIEL T. M. MATAWU
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Partner
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2021/10/et.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=Ennocent T Chidawanyika">
-                    <h5 className="text-xl font-bold">
-                    Ennocent T Chidawanyika
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Associate
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2021/10/rm.jpeg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=RUVIMBO MUZONZINI">
-                    <h5 className="text-xl font-bold">
-                    RUVIMBO MUZONZINI
-                    </h5>
-                  </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Associate
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/elementor/thumbs/dil-pebg4es5q3d06sxkshgbssasyp63hnhdwmuxh7oxra.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=DILLON CHEMHERE">
-                    <h5 className="text-xl font-bold">
-                    DILLON CHEMHERE
-                    </h5>
-                    </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Associate
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
-                  <img
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2021/10/dia.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=WILLIAM DIARRA">
-                    <h5 className="text-xl font-bold">
-                    WILLIAM DIARRA
-                    </h5>
-                  </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Associate
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6 rounded-full">
-                  <img 
-                    alt="..."
-                    src="http://cwg.co.zw/wp-content/uploads/2018/10/pic-21.jpg"
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
-                  />
-                  <div className="pt-6 text-center">
-                  <Link className="Thembiwe"to="/PROFILE?name=TAFADZWA R CHIKWAPE">
-                    <h5 className="text-xl font-bold">
-                    TAFADZWA R CHIKWAPE
-                    </h5>
-                  </Link>
-                    <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                    Estate Administrator
-                    </p>
-                    <div className="mt-6">
-                    <button
-                        className=" w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <img  src={callIcon} width='30px' alt="call icon" />
-                      </button>
-                      <button
-                        className=  "w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                         <img src={mailIcon} alt="call icon" />
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              </div>:null}
-
-                 
-
-
             </div>
-            <button onClick={()=>setShow(!show)}>View all</button>
-          </div>
         </section>
+        
+        <section className="pb-20 pt-0 px-4">
+        <SwiperTeams/>
+        </section>
+            
+            
 
         <section className="pb-20 relative block bg-black">
           <div
@@ -911,326 +380,11 @@ const[show,setShow]=useState(false);
 
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64" id="ExpertiseSect">
             <div className="flex flex-wrap text-center justify-center">
-              <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold text-white">
-                  OUR EXPERTISE
-                </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                  Put the potentially record low maximum sea ice extent tihs year down to low ice.
-                  According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
-                </p>
+              <div className="w-full lg:w-6/12 px-4 pb-10">
+                <h2 className="pt-10 text-4xl font-semibold text-white"> OUR EXPERTISE</h2>
+                <ExpertiseAccordion  />               
               </div>
-            </div>
-            <div className="flex flex-wrap mt-12 justify-center">
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <button onClick={() => setShowModal(true)}><ion-icon  size="large" name="business-outline"></ion-icon></button>
-                </div>
-                {showModal ? (
-        <>
-          <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-          >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-3xl font-semibold">
-                  Infrastructure/ PPP
-                  </h3>
-                  <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setShowModal(false)}
-                  >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
-                  </button>
-                </div>
-                {/*body*/}
-                <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-slate-500 text-lg leading-relaxed ">
-                  Our lawyers have extensive experience across a broad range of contractual 
-                  arrangements for PPP projects. This includes experience in road, water, energy 
-                  and other infrastructure sectors. Given our experience in a diverse range of areas, 
-                  our PPP practice is complemented by our lawyers in other practice areas such as 
-                  property, tax, finance and regulatory work.<br/>
-
-                  We regularly assist clients in drafting and reviewing lease agreements, project contracts,
-                 construction, operation & maintenance contracts, joint venture agreements. In addition to 
-                 that we advise on bank and capital markets financing, as well as exchange control and 
-                 other financial services regulatory issues.
-                  </p>
-                </div>
-                {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-                  <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    Close
-                  </button>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-        </>
-      ) : null}
-                
-                <h6  className="text-xl mt-5 font-semibold text-white ">
-                Infrastructure/PPP
-                </h6>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                  <button onClick={() => setShowModal(true)}><ion-icon size="large" name="sunny-outline"></ion-icon></button>
-                  {showModal ? (
-                      <>
-                        <div
-                          className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-                        >
-                          <div className="relative w-auto my-6 mx-auto max-w-3xl">
-                            {/*content*/}
-                            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                              {/*header*/}
-                              <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                                <h3 className="text-3xl font-semibold">
-                                Mining & Renewable Energy
-                                </h3>
-                                <button
-                                  className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                                  onClick={() => setShowModal(false)}
-                                >
-                                  <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                                    ×
-                                  </span>
-                                </button>
-                              </div>
-                              {/*body*/}
-                              <div className="relative p-6 flex-auto">
-                                <p className="my-4 text-slate-500 text-lg leading-relaxed ">
-                                    Coghlan Welsh & Guest has an outstanding energy, mining and commodities practice, representing lenders,
-                                     developers and sponsors in significant projects in Zimbabwe. The Practice has been involved in oil, 
-                                     gas and power projects in the country, and has represented many local regional and international oil 
-                                     companies in drafting; review of agreements and contracts and due diligence reports.  The firm has been 
-                                     involved in the mining sector for several years, advising on mining rights and laws, buying, selling, 
-                                     financing and developing projects in the most important mining jurisdictions. The team advises on all 
-                                     matters pertaining to mining and minerals resource, oil and gas, including corporate and transactional, 
-                                     finance, environmental, tax, regulatory, health and safety and litigation and dispute resolution.
-                                     <br/>
-
-                                    We advise government agencies, parastatals, utilities, project sponsors and developers, lenders, institutional
-                                     investors, contractors and operators on general corporate and regulatory matters, tendering and procurement, 
-                                     project structuring and delivery, project finance, PPA, EPC and O&M agreements, fuel supply and power 
-                                     off-take and the resolution of disputes relating to construction and power generation. We also advise in more
-                                    specialist areas such as local social and environmental matters and compliance with international standards
-                                </p>
-                              </div>
-                              {/*footer*/}
-                              <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-                                <button
-                                  className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                                  type="button"
-                                  onClick={() => setShowModal(false)}
-                                >
-                                  Close
-                                </button>
-                                
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-                      </>
-                    ) : null}
-                </div>
-                
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Mining and Renewable Energy
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large"name="card-outline"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Banking and Finance
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" color='red' name="home"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Property
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="wallet"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Financial Services Regulatory
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large"name="earth"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Capital Markets
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large"name="git-compare"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Arbitration Commercial<br/> Dispute Resolution
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="globe"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Intellectual Property
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large"name="person-add"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Employment
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="document-attach"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Tax
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large"name="file-tray-full"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Bankruptcy,Insolvency<br/>Restructuring
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="options"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Technology, Media & Telecommunications
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="leaf"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Environmental Law
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="hardware-chip"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Cyber Security<br/>Commercial Crime
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="accessibility"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Family Law
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-              <div className="w-full lg:w-3/12 px-4 text-center">
-                <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
-                <ion-icon size="large" name="layers"></ion-icon>
-                </div>
-                <h5 className="text-xl mt-5 font-semibold text-white">
-                Trusts & Estate Planning
-                </h5>
-                <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-
-            </div>
+            </div>         
           </div>
         </section>
         <section className="relative block py-24 lg:pt-0 bg-neutral-900" id="ContactSection">
@@ -1311,4 +465,4 @@ const[show,setShow]=useState(false);
       
     </>
   );
-}
+ };
