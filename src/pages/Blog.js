@@ -25,9 +25,8 @@ function Blog() {
     console.log(articles);
   return (
     <div>
-        <h1 className='text-3xl mt-10 text-center font-semibold'>rss feeder</h1>
-        <h2 className='text-2xl mt-20 font-medium text-center'>ndio hio</h2>
-        <div className='border max-w-lg w-3/4'>
+        
+        <div className='border center max-w-lg w-3/4'>
             <div><img src='https://zela.org/wp-content/uploads/2019/05/zela_logo_mediun-1.jpg'/></div>
         {articles.map((item, i) =>
         <Feed

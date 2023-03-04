@@ -6,7 +6,9 @@ const Feed = ({title, link, date}) =>{
         <>
         <a href={link} className="hover:text-red-600" target="_blank" rel="noopener noreferrer">
         <h3 className="text-xl underline decoration-red-400 mb-1">{title}</h3>
+        
         <p>{date}</p>
+        
         </a>
         
         </>

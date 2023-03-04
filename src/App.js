@@ -16,6 +16,7 @@ import Events from "./components/Events";
 import OurProfile from "./pages/OurProfile";
 import News from "./components/News";
 import Archives from "./components/Archives";
+import Blog from "./pages/Blog"
 
 
 function App() {
