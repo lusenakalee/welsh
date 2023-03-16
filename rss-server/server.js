@@ -2,7 +2,8 @@ import RSSParser from 'rss-parser';
 import cors from 'cors'
 import express from 'express'
 
-const feedURL ="https://zela.org/feed/";    
+const feedURL ="https://zela.org/feed/"; 
+  
 const parser = new RSSParser();
 let articles=[];
 

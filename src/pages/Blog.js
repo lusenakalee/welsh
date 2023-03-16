@@ -1,6 +1,8 @@
 import React, { useState, useEffect} from 'react'
 import axios from 'axios'
 import Feed from '../components/Feed';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 function Blog() {
     const [articles,setArticles] = useState ([]);
@@ -26,17 +28,22 @@ function Blog() {
   return (
     <div>
         
-        <div className='border center max-w-lg w-3/4'>
-            <div><img src='https://zela.org/wp-content/uploads/2019/05/zela_logo_mediun-1.jpg'/></div>
+        
+        <Navbar/>
+        
         {articles.map((item, i) =>
         <Feed
             key={i}
-            tiltle={item.item.title}
+            title={item.item.title}
             link={item.item.link}
-            date={item.item.pubDate}           
+            date={item.item.pubDate}
+            creator={item.item.creator} 
+            snippet={item.item["content:encodedSnippet"]}         
+                    
         />
         )}
-        </div>
+        <Footer/>
+        
 
     </div>
   )

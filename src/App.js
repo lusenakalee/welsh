@@ -17,7 +17,8 @@ import OurProfile from "./pages/OurProfile";
 import News from "./components/News";
 import Archives from "./components/Archives";
 import Blog from "./pages/Blog"
-
+import Try from "./pages/Try";
+import OurHistory from "./pages/OurHistory";
 
 function App() {
   return (
@@ -33,9 +34,11 @@ function App() {
           <Route path="Ablog" element={<Ablog/>} />
           <Route path="Events" element={<Events/>} />
           <Route path="OurProfile" element={<OurProfile/>} />
+          <Route path="OurHistory" element={<OurHistory/>} />
           <Route path="News" element={<News/>} />
           <Route path="Archives" element={<Archives/>} />
           <Route path="Blog" element={<Blog/>} />
+          <Route path="Try" element={<Try/>} />
         </Routes>
       </BrowserRouter>
     );
