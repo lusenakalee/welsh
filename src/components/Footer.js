@@ -46,7 +46,7 @@ export default function Footer() {
                   <img src={mailIcon} alt="mail icon" />
                 </button>
                 </a>
-                <a href="https://www.linkedin.com/company/coghlan-welsh-and-guest/">
+                <a href="https://www.linkedin.com/company/coghlan-welsh-and-guest/" target="_blank">
                 <button
                   className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
@@ -86,11 +86,7 @@ export default function Footer() {
                          href="/Insights">Insights
                       </a>
                     </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://www.creative-tim.com/bootstrap-themes/free">Free Products
-                      </a>
-                    </li>
+
 
                   </ul>
                 </div>

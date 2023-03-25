@@ -6,12 +6,15 @@ import mailIcon from "../assets/mail-outline.svg";
 import cwgLogo from "../assets/cwgLogo.png";
 import medalIcon from "../assets/medal-outline.svg";
 import OurHistory from "./OurHistory";
+import WorkWithUs from "../assets/WorkWithUs.jpg";
+import LocationPic from "../assets/location.jpg";
 
 import { useState } from "react";
 import {HashLink as Link} from "react-router-hash-link"
 import MapContainer from "../components/MapContainer";
 import SwiperTeams from "../components/SwiperTeams";
 import ExpertiseAccordion from "../components/ExpertiseAccordion";
+import { BuildingLibraryIcon, GlobeEuropeAfricaIcon, ScaleIcon } from "@heroicons/react/24/outline";
 
 
 
@@ -83,7 +86,7 @@ const[show,setShow]=useState(false);
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
-                    <ion-icon size="large" name="trail-sign"></ion-icon>
+                    <BuildingLibraryIcon/>
                     </div>
                     <h6 className="text-xl font-semibold">Our History</h6>
                     <p className="mt-2 mb-4 text-gray-600">
@@ -102,7 +105,7 @@ const[show,setShow]=useState(false);
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
-                    <ion-icon size="large" name="library"></ion-icon>
+                    <GlobeEuropeAfricaIcon/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Our Profile
@@ -123,7 +126,7 @@ const[show,setShow]=useState(false);
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
-                    <ion-icon size="large" name="library"></ion-icon>
+                    <ScaleIcon/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Our Values
@@ -171,7 +174,7 @@ const[show,setShow]=useState(false);
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ">
                   <img
                     alt="..."
-                    src="https://images.pexels.com/photos/8112174/pexels-photo-8112174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    src={WorkWithUs}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -231,13 +234,13 @@ const[show,setShow]=useState(false);
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.pexels.com/photos/9028990/pexels-photo-9028990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src={LocationPic}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4" id="ValuesSect">
                 <div className="md:pr-12">
-                  <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-700">
-                  <ion-icon size="large" name="shield-half"></ion-icon>
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-700">
+                  <ScaleIcon />
                   </div>
                   <h3 className="text-3xl font-semibold">
                   Our Values in Action.
@@ -351,8 +354,10 @@ const[show,setShow]=useState(false);
             </div>
         </section>
         
-        <section className="pb-20 pt-0 px-4">
+        <section className="pb-20 pt-0 shadow-lg rounded-lg px-4">
+        <div className="  ">
         <SwiperTeams/>
+        </div>
         </section>
             
             
