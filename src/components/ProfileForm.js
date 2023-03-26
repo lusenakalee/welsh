@@ -1,24 +1,17 @@
-
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import data from "../Data";
-
-
-
-
 
 export default function ProfileForm() {
   return (
     <>
-      
-      <Navbar/> 
+      <Navbar />
       <main className="profile-page">
         <section className="relative block" style={{ height: "500px" }}>
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')"
+                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
             }}
           >
             <span
@@ -55,7 +48,7 @@ export default function ProfileForm() {
                     <div className="relative">
                       <img
                         alt="..."
-                        src='http://cwg.co.zw/wp-content/uploads/elementor/thumbs/pic-2-ny3571caj2lsa28vkq45zvqvny7uq1mjdimqtsk8sw.jpg'
+                        src="http://cwg.co.zw/wp-content/uploads/elementor/thumbs/pic-2-ny3571caj2lsa28vkq45zvqvny7uq1mjdimqtsk8sw.jpg"
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16"
                         style={{ maxWidth: "150px" }}
                       />
@@ -75,12 +68,10 @@ export default function ProfileForm() {
                   <div className="w-full lg:w-4/12 px-4 lg:order-1">
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       <div className="mr-4 p-3 text-center">
-                        
                         <span className="text-sm text-gray-500">Email</span>
                       </div>
-                      
+
                       <div className="lg:mr-4 p-3 text-center">
-                        
                         <span className="text-sm text-gray-500">Phone No.</span>
                       </div>
                     </div>
@@ -88,7 +79,7 @@ export default function ProfileForm() {
                 </div>
                 <div className="text-center mt-12">
                   <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 ">
-                  Names 
+                    Names
                   </h3>
                   <div className="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
@@ -113,7 +104,6 @@ export default function ProfileForm() {
                       <p className="mb-4 text-lg leading-relaxed text-gray-800">
                         Description
                       </p>
-                      
                     </div>
                   </div>
                 </div>
@@ -122,8 +112,7 @@ export default function ProfileForm() {
           </div>
         </section>
       </main>
-      <Footer/>
-      
+      <Footer />
     </>
   );
 }

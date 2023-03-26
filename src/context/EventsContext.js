@@ -8,7 +8,7 @@ export  function EventsDataProvider  ({children})  {
 
     return(
         <EventsContext.Provider
-            value={{eventsData}}>
+            value={{eventsData }}>
             {children}
         </EventsContext.Provider>
         

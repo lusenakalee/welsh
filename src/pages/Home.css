@@ -1,0 +1,11 @@
+.swiping{
+    animation: swipe-right 1s ease-in-out infinite alternate;
+}
+@keyframes swipe-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(10px);
+  }
+}

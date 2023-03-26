@@ -10,6 +10,7 @@ module.exports = withMT({
     extend: {},
   },
   plugins: [
-    require('flowbite-typography'),
+    
+    require('@tailwindcss/typography'),
   ],
 });

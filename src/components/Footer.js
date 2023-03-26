@@ -102,12 +102,12 @@ export default function Footer() {
                     </li>
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://creative-tim.com/terms">Terms & Conditions
+                         href="">Terms & Conditions
                       </a>
                     </li>
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="https://creative-tim.com/privacy">Privacy Policy
+                         href="">Privacy Policy
                       </a>
                     </li>
                     
@@ -123,7 +123,7 @@ export default function Footer() {
               <div className="text-sm text-gray-600 font-semibold py-1">
                 Copyright © {new Date().getFullYear()}{" "}Coghlan, Welsh & Guest by{" "}
                 <a
-                  href="https://www.creative-tim.com"
+                  href=""
                   className="text-gray-600 hover:text-gray-900"
                 >
                   Leroy Lusenaka
