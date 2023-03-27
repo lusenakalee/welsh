@@ -33,13 +33,13 @@ function Insights() {
               </Link>
 
               <Link
-                to="/Blog"
+                to="/Insights"
                 className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-red-600 shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
               >
                 News
               </Link>
               <Link
-                to="/Archives"
+                to="/Insights"
                 className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
               >
                 Archives

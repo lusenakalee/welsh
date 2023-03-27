@@ -30,7 +30,7 @@ const Ablog = () => {
           <Link smooth to="/Events" className="opacity-60">
             Events
           </Link>
-          <a href="#">Article</a>
+          <a >Article</a>
         </Breadcrumbs>
       </div>
 
