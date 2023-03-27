@@ -1,16 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
 import cwgLogo from "../assets/cwgLogo.png";
 import medalIcon from "../assets/medal-outline.svg";
-
 import WorkWithUs from "../assets/WorkWithUs.jpg";
 import LocationPic from "../assets/location.jpg";
 import "./Home.css";
-
 import { HashLink as Link } from "react-router-hash-link";
-
 import SwiperTeams from "../components/SwiperTeams";
 import ExpertiseAccordion from "../components/ExpertiseAccordion";
 import {
@@ -18,6 +14,7 @@ import {
   GlobeEuropeAfricaIcon,
   ScaleIcon,
 } from "@heroicons/react/24/outline";
+
 
 export default function Landing() {
   return (
