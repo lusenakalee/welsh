@@ -1,20 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Home from "./pages/Home";
-
 import "@ionic/react/css/core.css";
 import "./App.css";
 import ProfilePage from "./pages/ProfilePage";
-import Navbar from "./components/Navbar";
-import Events from "../src/components/Events";
 import OurProfile from "./pages/OurProfile";
 import News from "./components/News";
 import Archives from "./components/Archives";
 import Blog from "./pages/Blog";
-import OurHistory from "./pages/OurHistory";
-import EventsContextProvider from "./context/EventsContext";
-import { eventsData } from "./Data/EventsData";
-import EventsContext from "./context/EventsContext";
+import OurHistory from "./pages/OurHistory"
 import EventsPage from "./pages/EventsPage";
 import ArticlePage from "./pages/ArticlePage";
 import Ablog from "./components/Ablog";
