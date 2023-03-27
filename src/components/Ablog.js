@@ -17,7 +17,7 @@ const Ablog = () => {
   }
 
   return (
-    <>
+    <div>
       <header>
         <Navbar />
       </header>
@@ -34,9 +34,9 @@ const Ablog = () => {
         </Breadcrumbs>
       </div>
 
-      <main className="pt-8 pb-16 lg:pt-16  w-full justify-items-center lg:pb-24 bg-white dark:bg-gray-900">
-        <div className="flex justify-between  px-4 mx-auto max-w-screen-xl ">
-          <article key={event.id} className="   format-blue dark:format-invert">
+      <main   className="pt-8 pb-16 lg:pt-16  mx-auto px-4 lg:px-8 justify-items-center lg:pb-24 bg-white dark:bg-gray-900">
+        <div className="flex justify-between  px-auto mx-auto px-4 lg:px-8 ">
+          <article key={event.id} className=" px-auto prose-lg mx-auto px-4 lg:px-8  format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
               <address className="flex items-center mb-6 not-italic">
                 <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
@@ -45,7 +45,7 @@ const Ablog = () => {
                     src={event.authorImg}
                     alt="author image"
                   />
-                  <div>
+                  <div className=" max-w-prose mx-auto">
                     <a
                       href="#"
                       rel="author"
@@ -68,12 +68,12 @@ const Ablog = () => {
                   </div>
                 </div>
               </address>
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+              <h1 className="mb-4 text-3xl  font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
                 {event.title}
               </h1>
             </header>
-            <p className="lead  ">{event.details}</p>
-            <p className="text-lg  mb-4 pb-4">{event.storyParagraph1}</p>
+            <p className="leading-relaxed  ">{event.details}</p>
+            <p className="text-lg  pb-4">{event.storyParagraph1}</p>
 
             <figure>
               <img alt="event image" src={event.eventImg} />
@@ -85,7 +85,7 @@ const Ablog = () => {
       </main>
 
       <Footer />
-    </>
+    </div>
   );
 };
 
