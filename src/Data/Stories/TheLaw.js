@@ -2,6 +2,7 @@ import React from "react";
 
 function TheLaw() {
   return (
+    <div>
     <article className="prose lg:prose-base max-w-none">
        
       <h2 className="underline underline-offset-8">The Law</h2>
@@ -196,6 +197,7 @@ function TheLaw() {
         down the value chain of mineral processing.
       </p>
     </article>
+    </div>
   );
 }
 
