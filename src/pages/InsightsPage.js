@@ -3,7 +3,7 @@ import Insights from '../components/Insights'
 
 function InsightsPage() {
   return (
-    <main>
+    <main className="container-fluid">
     <Insights/>
     </main>
     

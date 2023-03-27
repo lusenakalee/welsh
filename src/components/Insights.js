@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 function Insights() {
   return (
-    <main>
+    <main className="container-fluid">
       <Navbar />
       <section className="relative bg-[url(https://images.pexels.com/photos/8730785/pexels-photo-8730785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
