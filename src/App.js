@@ -36,8 +36,7 @@ function App() {
         <Route path="OurHistory" element={<OurHistory />} />
         <Route path="News" element={<News />} />
         <Route path="Archives" element={<Archives />} />
-        <Route path="Blog" element={<Blog />} />
-        
+        <Route path="Blog" element={<Blog />} />        
       </Routes>
     </BrowserRouter>
   );

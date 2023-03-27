@@ -103,11 +103,11 @@ export default function Landing() {
                       we are proud of the positive impact we have had on our
                       clients' lives.
                     </p>
-                    <a href="/OurHistory">
+                    <Link to="/OurHistory">
                       <h6 className="text-sm font-semibold ">
                         Learn more<span aria-hidden="true">&rarr;</span>
                       </h6>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -125,11 +125,11 @@ export default function Landing() {
                       We are here to provide the legal support and guidance you
                       need to achieve a successful outcome.
                     </p>
-                    <a href="/OurProfile">
+                    <Link to="/OurProfile">
                       <h6 className="text-sm font-semibold ">
                         Learn more<span aria-hidden="true">&rarr;</span>
                       </h6>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
