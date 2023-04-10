@@ -54,7 +54,7 @@ export default function Landing() {
                     Coghlan, Welsh and Guest is a law firm that provides trusted
                     legal advocacy for a variety of legal matters. With a
                     commitment to defending your rights with integrity and
-                    expertise, they offer legal services that prioritize their
+                    expertise, we offer legal services that prioritize our
                     clients' best interests.
                   </p>
                 </div>

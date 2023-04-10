@@ -30,18 +30,21 @@ const Ablog = () => {
           <Link smooth to="/Events" className="opacity-60">
             Events
           </Link>
-          <a >Article</a>
+          <a>Article</a>
         </Breadcrumbs>
       </div>
 
-      <main   className="pt-8 pb-16 lg:pt-16  mx-auto px-4 lg:px-8 justify-items-center lg:pb-24 bg-white dark:bg-gray-900">
+      <main className="pt-8 pb-16 lg:pt-16  mx-auto px-4 lg:px-8 justify-items-center lg:pb-24 bg-white dark:bg-gray-900">
         <div className="flex justify-between  px-auto mx-auto px-4 lg:px-8 ">
-          <article key={event.id} className=" px-auto prose-lg mx-auto px-4 lg:px-8  format-blue dark:format-invert">
+          <article
+            key={event.id}
+            className=" px-auto prose-lg mx-auto px-4 lg:px-8  format-blue dark:format-invert"
+          >
             <header className="mb-4 lg:mb-6 not-format">
-              <address className="flex items-center mb-6 not-italic">
+              <address className="flex  justify-between   items-center mb-6 not-italic">
                 <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                   <img
-                    className="mr-4 w-16 h-16 rounded-full"
+                    className="mr-4 w-16 h-16 mt-0 rounded-full"
                     src={event.authorImg}
                     alt="author image"
                   />
@@ -57,16 +60,34 @@ const Ablog = () => {
                       {event.authorTitle}
                     </p>
                     <p className="text-base font-light text-gray-500 dark:text-gray-400">
-                      <time
-                        pubdate
-                        datetime="2022-02-08"
-                        title="February 8th, 2022"
-                      >
-                        {event.date}
-                      </time>
+                      <time pubdate>{event.date}</time>
                     </p>
                   </div>
                 </div>
+
+                <div className="inline-flex items-center  text-sm text-gray-900 dark:text-white">
+                  <img
+                    className="mr-4 w-16 h-16 mt-0 rounded-full"
+                    src={event.coAuthorImg}
+                    alt="author image"
+                  />
+                  <div className=" max-w-prose mx-auto">
+                    <a
+                      href="#"
+                      rel="author"
+                      className="text-xl font-bold text-gray-900 dark:text-white"
+                    >
+                      {event.coAuthorName}
+                    </a>
+                    <p className="text-base font-light text-gray-500 dark:text-gray-400">
+                      {event.authorTitle}
+                    </p>
+                    <p className="text-base font-light text-gray-500 dark:text-gray-400">
+                      Co - Author 
+                    </p>
+                  </div>
+                </div>
+                
               </address>
               <h1 className="mb-4 text-3xl  font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
                 {event.title}

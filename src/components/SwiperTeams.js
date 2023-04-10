@@ -14,14 +14,14 @@ import dc from "../assets/dc.jpg";
 import dia from "../assets/dia.jpg";
 import et from "../assets/et.jpg";
 import Fraser from "../assets/Fraser.jpg";
-import Ian from "../assets/Ian.jpg";
 import Matlida from "../assets/Matlida.jpg";
 import Mazingi from "../assets/Mazingi.jpg";
 import Moyo from "../assets/Moyo.jpg";
-
+import Samantha from "../assets/Samantha.jpg";
+import Lisa from "../assets/lisa.jpg";
 import Trc from "../assets/Trc.jpg";
 import Wellington from "../assets/Wellington.jpg";
-import rm from "../assets/rm.jpeg";
+
 
 import { Pagination } from "swiper";
 
@@ -461,13 +461,13 @@ export default function SwiperTeams() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={Ian}
+                  src={Samantha}
                 />
                 <div className="pt-5">
                   <p className="text-gray-700 text-base">Associate</p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:ian@cwg.co.zw">
+                  <a href="mailto:smbauya@cwg.co.zw">
                     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       Email
                     </span>
@@ -481,29 +481,23 @@ export default function SwiperTeams() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
-                  <h3 className=" font-semibold">IAN T. CHAKAWATA</h3>
+                  <h3 className=" font-semibold">SAMANTHA MBAUYA</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
-                    Year of Registration: 2016 Qualifications: LLB (UFH) LLM in
-                    MERCANTILE LAW (UP) Status: Admitted to practise as a Legal
-                    Practitioner in Zimbabwe. Main areas of Practice Since
-                    joining the firm in April 2016,Ian’s main interests are in
-                    debt prevention measures, tax law, information and
-                    technology law, indigenisation,compliance and insolvency
-                    law.
+                  Samantha joined the firm in 2019 as an Intern, and became an Associate in June 2022. She holds a
+                  Bachelor of Laws Honours Degree from the University of Zimbabwe, and is currently studying
+                  towards a Masters in Business Administration. Samantha is a registered Legal Practitioner,
+                  Conveyancer and Notary Public.
                   </p>
                   {show ? (
                     <p>
                       {" "}
-                      His focus has been primarily on Commercial Law, Employment
-                      Law and Civil Law Litigation, drafting legal advice;
-                      reviewing agreements, employment codes of conduct,
-                      employment contracts and proposing legal reforms. He has
-                      assisted foreign investors to navigate the indigenisation
-                      legislation and carries out due diligence work on various
-                      companies in key industry sectors in Zimbabwe and has
-                      worked as local counsel in conjunction with regional and
-                      international law firms on a complex water reticulation
-                      project.{" "}
+                      Samantha’ specialties includes in civil litigation with an inclination towards family law; corporate and
+                      commercial law; with keen interest in the sectors of mining, energy, criminal law, Aviation law, Data
+                      protection and Artificial intelligence.<br/>
+                      Samantha’s experience in Law practice continues to grow. Apart from a good number of local
+                      criminal and civil matters, she has also provided legal service to foreign entities based in Swaziland,
+                      United Kingdom and South Africa.
+                      Apart from her legal interests, Samantha enjoys traveling, team sports and volunteer work.{" "}
                     </p>
                   ) : null}
                   <button onClick={() => setShow(!show)}>View all</button>
@@ -630,13 +624,13 @@ export default function SwiperTeams() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={rm}
+                  src={Lisa}
                 />
                 <div className="pt-5">
                   <p className="text-gray-700 text-base">Associate</p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:rm@cwg.co.zw">
+                  <a href="mailto:lzvinavashe@cwg.co.zw">
                     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                       Email
                     </span>
@@ -650,20 +644,19 @@ export default function SwiperTeams() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
-                  <h3 className=" font-semibold">RUVIMBO MUZONZINI</h3>
+                  <h3 className=" font-semibold">LISA ZVINAVASHE</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
-                    Year of Registration: 2015 Email: rm@cwg.co.zw
-                    Qualifications: LLB (HONS) OBU – UK Main Areas of Practice
-                    Civil Litigation, Corporate and Commercial Law, Regulatory
-                    Compliance
+                  Year of registration: 2021<br/>
+
+                  Qualifications: Bachelor of Laws (UNISA)<br/>
+
+                  Status : Admitted to practice as a Legal Practitioner in Zimbabwe<br/>
+
+                  Lisa joined Coghlan, Welsh & Guest in November 2020 as an intern and was admitted as an Associate in June 2022. Lisa’s practice areas include labour law, criminal law, company law and civil litigation. Lisa is a member of the Young Lawyers Association of Zimbabwe.
                   </p>
                   {show ? (
                     <p>
-                      {" "}
-                      Ruvimbo joined the firm’s Litigation and Commercial Law
-                      departments in October 2019. She has a keen interest in
-                      Corporate Litigation as well as Corporate Governance and
-                      Compliance.{" "}
+                      {" "}Apart from her legal interests, she enjoys philanthropic work and charity to which she is a member of No Child Left Unclothed charity organization.{" "}
                     </p>
                   ) : null}
                   <button onClick={() => setShow(!show)}>View all</button>

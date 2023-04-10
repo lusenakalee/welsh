@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import React ,{ Fragment, useState } from "react";
 import {
   Accordion,
   AccordionHeader,
@@ -13,13 +13,15 @@ export default function ExpertiseAccordion() {
   };
  
   return (
-    <Fragment>
+    <React.Fragment>
+      <div className="text-left">
+
       <Accordion open={open === 1}>
         <AccordionHeader className='text-red-500'onClick={() => handleOpen(1)}>
         Infrastructure/PPP
         </AccordionHeader>
         <AccordionBody className='text-white'>
-        Our lawyers have extensive experience across a broad range of contractual arrangements for PPP projects. This includes experience in road, water, energy and other infrastructure sectors. Given our experience in a diverse range of areas, our PPP practice is complemented by our lawyers in other practice areas such as property, tax, finance and regulatory work.
+        Our lawyers have extensive experience across a broad range of contractual arrangements for PPP projects. This includes experience in road, water, energy and other infrastructure sectors. Given our experience in a diverse range of areas, our PPP practice is complemented by our lawyers in other practice areas such as property, tax planning, finance and regulatory work.
         We regularly assist clients in drafting and reviewing lease agreements, project contracts, construction, operation & maintenance contracts, joint venture agreements. In addition to that we advise on bank and capital markets financing, as well as exchange control and other financial services regulatory issues.
         </AccordionBody>
       </Accordion>
@@ -28,7 +30,7 @@ export default function ExpertiseAccordion() {
         Mining & Renewable Energy
         </AccordionHeader>
         <AccordionBody className='text-white'>
-        Coghlan Welsh & Guest has an outstanding energy, mining and commodities practice, representing lenders, developers and sponsors in significant projects in Zimbabwe. The Practice has been involved in oil, gas and power projects in the country, and has represented many local regional and international oil companies in drafting; review of agreements and contracts and due diligence reports.  The firm has been involved in the mining sector for several years, advising on mining rights and laws, buying, selling, financing and developing projects in the most important mining jurisdictions. The team advises on all matters pertaining to mining and minerals resource, oil and gas, including corporate and transactional, finance, environmental, tax, regulatory, health and safety and litigation and dispute resolution.
+        Coghlan Welsh & Guest has an outstanding energy, mining and commodities practice, representing lenders, developers and sponsors in significant projects in Zimbabwe. The Practice has been involved in oil, gas and power projects in the country, and has represented many local regional and international oil companies in drafting; review of agreements and contracts and due diligence reports.  The firm has been involved in the mining sector for several years, advising on mining rights and laws, buying, selling, financing and developing projects in the most important mining jurisdictions. The team advises on all matters pertaining to mining and minerals resource, oil and gas, including corporate and transactional, finance, environmental, tax planning, regulatory, health and safety and litigation and dispute resolution.
 
 We advise government agencies, parastatals, utilities, project sponsors and developers, lenders, institutional investors, contractors and operators on general corporate and regulatory matters, tendering and procurement, project structuring and delivery, project finance, PPA, EPC and O&M agreements, fuel supply and power off-take and the resolution of disputes relating to construction and power generation. We also advise in more specialist areas such as local social and environmental matters and compliance with international standards
         </AccordionBody>
@@ -113,10 +115,10 @@ Our team draws upon the skills and experience from colleagues in other practice 
       </Accordion>
       <Accordion open={open === 10}>
         <AccordionHeader className='text-red-500'onClick={() => handleOpen(10)}>
-        Tax
+        Tax Planning
         </AccordionHeader>
         <AccordionBody className='text-white'>
-        We provide expert advice in relation to areas of tax, such as: Corporate Tax, project finance, tax due diligence, international tax, VAT compliance reviews, advice and support, tax and regulatory requirements, transfer pricing customs and excise compliance reviews, advice and support and tax dispute resolution.
+        We provide expert advice in relation to areas of tax planning, such as: Corporate Tax, project finance, tax due diligence, international tax, VAT compliance reviews, advice and support, tax and regulatory requirements, transfer pricing customs and excise compliance reviews, advice and support and tax dispute resolution.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 11}>
@@ -167,7 +169,8 @@ Our team draws upon the skills and experience from colleagues in other practice 
         We own the Harare Board of Executors (Pvt.) Ltd which provides advisory services in estate planning, processing and management related matters including wills, trusts, donations, registration and administration of estates and executor services. The company is manned by an experienced administrator who worked for several years in the Office of the Master of the High Court
         </AccordionBody>
       </Accordion>
+      </div>
   
-    </Fragment>
+    </React.Fragment>
   );
 }

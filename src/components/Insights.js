@@ -28,21 +28,9 @@ function Insights() {
                 to="/Events"
                 className="block w-full rounded outline px-12 py-3 text-sm font-medium text-red-600 shadow hover:bg-red-700 hover:text-white focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
               >
-                Events
+                Articles
               </Link>
 
-              <Link
-                to="/Insights"
-                className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-red-600 shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
-              >
-                News
-              </Link>
-              <Link
-                to="/Insights"
-                className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-white hover:text-red-600 focus:outline-none focus:ring active:text-white sm:w-auto"
-              >
-                Archives
-              </Link>
             </div>
           </div>
         </div>
