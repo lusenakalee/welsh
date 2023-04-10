@@ -7,7 +7,7 @@ import WorkWithUs from "../assets/WorkWithUs.jpg";
 import Thembiwe from "../assets/Thembiwe.jpg";
 import LocationPic from "../assets/location.jpg";
 import "./Home.css";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink, HashLink as Link } from "react-router-hash-link";
 import SwiperTeams from "../components/SwiperTeams";
 import ExpertiseAccordion from "../components/ExpertiseAccordion";
 import {
@@ -15,6 +15,7 @@ import {
   GlobeEuropeAfricaIcon,
   ScaleIcon,
 } from "@heroicons/react/24/outline";
+import Button from "../components/Button";
 
 
 export default function Landing() {
@@ -58,6 +59,14 @@ export default function Landing() {
                     expertise, we offer legal services that prioritize our
                     clients' best interests.
                   </p>
+                  <HashLink
+                  smooth
+                  to="#ExpertiseSect"
+                  
+                >
+                  <div><Button/></div>
+                  </HashLink>
+                  
                 </div>
               </div>
             </div>
@@ -173,13 +182,13 @@ export default function Landing() {
                   possible outcome.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"></p>
-                <Link
+                <HashLink
                   smooth
-                  to="#ContactSection"
+                  to="#ExpertiseSect"
                   className="font-bold text-red-700 mt-8"
                 >
-                  Contact Us
-                </Link>
+                  Explore our Services
+                </HashLink>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
