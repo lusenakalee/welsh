@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import cwgLogo from "../assets/cwgLogo.png";
 import medalIcon from "../assets/medal-outline.svg";
 import WorkWithUs from "../assets/WorkWithUs.jpg";
+import Thembiwe from "../assets/Thembiwe.jpg";
 import LocationPic from "../assets/location.jpg";
 import "./Home.css";
 import { HashLink as Link } from "react-router-hash-link";
@@ -185,7 +186,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ">
                   <img
                     alt="..."
-                    src={WorkWithUs}
+                    src={Thembiwe}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -208,13 +209,13 @@ export default function Landing() {
                       Advocating for Your Rights
                     </h4>
                     <p className="text-md font-light mt-2 text-gray-700">
-                      Our law firm is dedicated to providing exceptional legal
+                      "Our law firm is dedicated to providing exceptional legal
                       services to our clients. We take pride in our commitment
                       to excellence and our ability to achieve successful
                       outcomes for our clients. Our team of experienced lawyers
                       is skilled in a wide range of practice areas, including
                       personal injury, workers' compensation, employment law,
-                      and more.
+                      and more."<b>- Managing partner</b>
                     </p>
                   </blockquote>
                 </div>
