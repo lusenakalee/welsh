@@ -1,0 +1,12 @@
+.w-full {
+  animation: slideFromLeft 0.5s ease;
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

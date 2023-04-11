@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
+
+
 function Insights() {
   return (
     <main >
@@ -35,6 +37,11 @@ function Insights() {
           </div>
         </div>
       </section>
+      <section>
+        
+        
+      </section>
+
       </main>
   );
 }

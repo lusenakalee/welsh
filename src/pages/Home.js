@@ -147,7 +147,7 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
                       <ScaleIcon />
                     </div>
-                    <h6 className="text-xl font-semibold">Our Values</h6>
+                    <h6 className="text-xl font-semibold">Our Vision</h6>
                     <p className="mt-2 mb-4 text-gray-600">
                       At our law firm, our values are rooted in our commitment
                       to providing exceptional legal services to our clients.

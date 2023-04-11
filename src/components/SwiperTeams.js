@@ -1,11 +1,13 @@
 import React from "react";
 import { useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y,Autoplay } from "swiper";
+
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 
 import Andrew from "../assets/Andrew.jpg";
 import Daniel from "../assets/Daniel.jpg";
@@ -22,17 +24,23 @@ import Lisa from "../assets/lisa.jpg";
 import Trc from "../assets/Trc.jpg";
 import Wellington from "../assets/Wellington.jpg";
 
-
-import { Pagination } from "swiper";
-
 export default function SwiperTeams() {
   const [show, setShow] = useState(false);
+
+
+
+
 
   return (
     <>
       <Swiper
-        pagination={true}
-        modules={[Pagination]}
+        modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        navigation 
+        autoplay={{delay:10000}}
+        
+        
         className="mySwiper px-4 pt-5 text-xs"
       >
         <SwiperSlide>
@@ -483,21 +491,28 @@ export default function SwiperTeams() {
                 <div className="md:pr-12">
                   <h3 className=" font-semibold">SAMANTHA MBAUYA</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
-                  Samantha joined the firm in 2019 as an Intern, and became an Associate in June 2022. She holds a
-                  Bachelor of Laws Honours Degree from the University of Zimbabwe, and is currently studying
-                  towards a Masters in Business Administration. Samantha is a registered Legal Practitioner,
-                  Conveyancer and Notary Public.
+                    Samantha joined the firm in 2019 as an Intern, and became an
+                    Associate in June 2022. She holds a Bachelor of Laws Honours
+                    Degree from the University of Zimbabwe, and is currently
+                    studying towards a Masters in Business Administration.
+                    Samantha is a registered Legal Practitioner, Conveyancer and
+                    Notary Public.
                   </p>
                   {show ? (
                     <p>
                       {" "}
-                      Samantha’ specialties includes in civil litigation with an inclination towards family law; corporate and
-                      commercial law; with keen interest in the sectors of mining, energy, criminal law, Aviation law, Data
-                      protection and Artificial intelligence.<br/>
-                      Samantha’s experience in Law practice continues to grow. Apart from a good number of local
-                      criminal and civil matters, she has also provided legal service to foreign entities based in Swaziland,
-                      United Kingdom and South Africa.
-                      Apart from her legal interests, Samantha enjoys traveling, team sports and volunteer work.{" "}
+                      Samantha’ specialties includes in civil litigation with an
+                      inclination towards family law; corporate and commercial
+                      law; with keen interest in the sectors of mining, energy,
+                      criminal law, Aviation law, Data protection and Artificial
+                      intelligence.
+                      <br />
+                      Samantha’s experience in Law practice continues to grow.
+                      Apart from a good number of local criminal and civil
+                      matters, she has also provided legal service to foreign
+                      entities based in Swaziland, United Kingdom and South
+                      Africa. Apart from her legal interests, Samantha enjoys
+                      traveling, team sports and volunteer work.{" "}
                     </p>
                   ) : null}
                   <button onClick={() => setShow(!show)}>View all</button>
@@ -646,17 +661,25 @@ export default function SwiperTeams() {
                 <div className="md:pr-12">
                   <h3 className=" font-semibold">LISA ZVINAVASHE</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
-                  Year of registration: 2021<br/>
-
-                  Qualifications: Bachelor of Laws (UNISA)<br/>
-
-                  Status : Admitted to practice as a Legal Practitioner in Zimbabwe<br/>
-
-                  Lisa joined Coghlan, Welsh & Guest in November 2020 as an intern and was admitted as an Associate in June 2022. Lisa’s practice areas include labour law, criminal law, company law and civil litigation. Lisa is a member of the Young Lawyers Association of Zimbabwe.
+                    Year of registration: 2021
+                    <br />
+                    Qualifications: Bachelor of Laws (UNISA)
+                    <br />
+                    Status : Admitted to practice as a Legal Practitioner in
+                    Zimbabwe
+                    <br />
+                    Lisa joined Coghlan, Welsh & Guest in November 2020 as an
+                    intern and was admitted as an Associate in June 2022. Lisa’s
+                    practice areas include labour law, criminal law, company law
+                    and civil litigation. Lisa is a member of the Young Lawyers
+                    Association of Zimbabwe.
                   </p>
                   {show ? (
                     <p>
-                      {" "}Apart from her legal interests, she enjoys philanthropic work and charity to which she is a member of No Child Left Unclothed charity organization.{" "}
+                      {" "}
+                      Apart from her legal interests, she enjoys philanthropic
+                      work and charity to which she is a member of No Child Left
+                      Unclothed charity organization.{" "}
                     </p>
                   ) : null}
                   <button onClick={() => setShow(!show)}>View all</button>

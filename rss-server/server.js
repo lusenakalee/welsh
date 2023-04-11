@@ -2,18 +2,21 @@ import RSSParser from 'rss-parser';
 import cors from 'cors'
 import express from 'express'
 
-const feedURL ="https://zela.org/feed/"; 
+const feedURL ="https://african.business/sectors/economy/feed"; 
   
 const parser = new RSSParser();
 let articles=[];
 
 const parse = async url =>{
     const feed = await parser.parseURL(url);
+   
 
     
     feed.items.forEach(item=>{
        articles.push({ item  })
+       console.log(`${item.title}\n${item.link}\n\n`)
     });
+   
 }
 
 parse(feedURL);
