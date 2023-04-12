@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ee37cb1.css",
-    "main.js": "/static/js/main.5d569c68.js",
+    "main.css": "/static/css/main.0392b829.css",
+    "main.js": "/static/js/main.065f66e8.js",
     "static/media/miningrestrictions.jpg": "/static/media/miningrestrictions.5577604b0029b9a66c13.jpg",
     "static/media/WorkWithUs.jpg": "/static/media/WorkWithUs.d9f0171a80ba05f085dc.jpg",
     "static/media/dia.jpg": "/static/media/dia.be85112006a9f63fbbd6.jpg",
@@ -29,18 +29,18 @@
     "static/media/dc.jpg": "/static/media/dc.f8b06fb86244fb62ade2.jpg",
     "static/media/Mazingi.jpg": "/static/media/Mazingi.211d582a8584e5db0298.jpg",
     "static/media/Samantha.jpg": "/static/media/Samantha.0a202a8708147aa763f8.jpg",
-    "static/media/Daniel.jpg": "/static/media/Daniel.a72bb159ba44ec4129b6.jpg",
+    "static/media/Daniel.jpg": "/static/media/Daniel.6516d8e3a9e570c85349.jpg",
     "index.html": "/index.html",
     "static/media/medal-outline.svg": "/static/media/medal-outline.cc95e029b6b8da1a4b9b8ef67aadc42d.svg",
     "static/media/call-outline.svg": "/static/media/call-outline.0f00460152e4a645e39332dd668e2e7d.svg",
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/logo-facebook.svg": "/static/media/logo-facebook.84318d1245b58f3c15c8fe7a85568b74.svg",
     "static/media/mail-outline.svg": "/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
-    "main.5ee37cb1.css.map": "/static/css/main.5ee37cb1.css.map",
-    "main.5d569c68.js.map": "/static/js/main.5d569c68.js.map"
+    "main.0392b829.css.map": "/static/css/main.0392b829.css.map",
+    "main.065f66e8.js.map": "/static/js/main.065f66e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ee37cb1.css",
-    "static/js/main.5d569c68.js"
+    "static/css/main.0392b829.css",
+    "static/js/main.065f66e8.js"
   ]
 }
