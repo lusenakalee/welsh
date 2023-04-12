@@ -1,11 +1,25 @@
 .swiper-button-prev{
     color: red;
+    display: none;
 
 }
 .swiper-button-next{
     color: red;
+    display: none;
 
 }
 .swiper-pagination-bullet{
     color: red;
 }
+
+@media only screen and (min-width: 720px) {
+    .swiper-button-prev {
+      display: block;
+    }
+  }
+
+@media only screen and (min-width: 720px) {
+    .swiper-button-next {
+      display: block;
+    }
+  }
