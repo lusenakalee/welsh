@@ -90,37 +90,47 @@ export default function OurHistory() {
                   <div className="flex flex-wrap justify-center text-left">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-gray-800">
-                      No other legal firm in Zimbabwe can claim to have been so closely associated with the legal, political and social development of the country as has Coghlan Welsh & Guest. Sir Charles Coghlan was the first Premier of erstwhile Rhodesia. Sir Ernest Guest was a top-ranking Cabinet member for many years; and Sir Allan Welsh was Speaker of Parliament of the then Rhodesia for many years.
+                      No other legal firm in Zimbabwe can claim to have stood the test of time
+                      and to have been so closely associated with the legal, political, and social
+                      development of the country as has Coghlan Welsh & Guest.
 
                       <br></br>
                             <br></br>
-                            <br></br>
+                         
+                            Sir Charles Coghlan was the first Premier of the then Rhodesia, whilst Sir
+                            Ernest Guest was a top-ranking Cabinet member and Sir Allan Welsh was
+                            Speaker of Parliament for many years.
 
-                            The firm was established under its present name in 1911, having been in existence under its predecessors in title since the 1890s in South Africa.
                             <br></br>
+                            <br></br>
+                       
+
+                            The firm was established under its present name in 1911, having been in
+                            existence under its predecessors in title since the 1890s in South Africa.
+                            The legal work in the courts during the era in which the firm was founded
+                            was inclined towards mining law and resolving mining disputes,
+                            insolvencies, bills of exchange, partnerships, illicit liquor dealing,
+                            unlicensed possession of uncut diamonds being most common.
+                            
                             <br></br>
                             <br></br>
                             
-
-                           The legal work in the courts during the era in which the firm was founded had a distinctly mining flavour, with mining disputes, insolvencies, bills of exchange, partnerships, illicit liquor dealing, unlicensed possession of uncut diamonds being most common. The discovery of diamonds at Kimberley was the main catalyst, followed by the discovery of gold on the Witwatersrand.
-
-                            
-                            <br></br>
-                            <br></br>
-                            <br></br>
-                           A number of legal firms, out of all proportion to the size of the population, had established themselves in Kimberley when Charles Coghlan entered the legal arena. The two in most popular demand were Coghlan and Coghlan, and Frames and Grimmer. Although these two firms were invariably engaged on opposite sides in all cases of any consequence in Kimberley, later came together in what was then Rhodesia.
-
+                            The discovery of diamonds at Kimberley was the main catalyst, followed by
+                            the discovery of gold on the Witwatersrand. Several legal firms, out of all
+                            proportion to the size of the population, had established themselves in
+                            Kimberley when Charles Coghlan entered the legal arena. The two in most
+                            popular demand were Coghlan and Coghlan, and Frames and Grimmer.
+                            Although these two firms were invariably engaged on opposite sides in all
+                            cases of any consequence in Kimberley, later came together in what was
+                            then Rhodesia. The firm has operated under the name Coghlan Welsh &
+                            Guest since 1911.
                            <br></br>
                             <br></br>
-                            <br></br>
-
-                            The firm has operated under the name Coghlan Welsh & Guest since 1911.
-                            <br></br>
-                            <br></br>
-                            <br></br>
                             
+                            As an indication to show its desire to grow, the firm in 2005 merged with
+                            another long-standing law firm of Stumbles & Rowe.
 
-                          In 2005, Coghlan Welsh & Guest merged with another long standing law firm of Stumbles and Rowe.
+                            <br></br>
 
                         </p>
                       

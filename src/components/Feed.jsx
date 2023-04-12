@@ -1,6 +1,5 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import { Swiper, SwiperSlide } from "swiper/react";
 
 
 
@@ -10,7 +9,9 @@ const Feed = ({title, link, date, creator, contentSnippet}) =>{
     let articleDate= new Date(date).toLocaleDateString("en-GB", formatted)
     return (
 
+
         <div>
+        
          <div class="relative flex flex-wrap items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
         <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid">
         <div class="p-6">                
@@ -26,6 +27,7 @@ const Feed = ({title, link, date, creator, contentSnippet}) =>{
             </div>
         
         </div>
+
 
       
     )

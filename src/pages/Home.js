@@ -6,6 +6,9 @@ import medalIcon from "../assets/medal-outline.svg";
 import WorkWithUs from "../assets/WorkWithUs.jpg";
 import Thembiwe from "../assets/Thembiwe.jpg";
 import LocationPic from "../assets/location.jpg";
+import LocationPic2 from "../assets/location2.jpg";
+import LocationPic3 from "../assets/location3.jpg";
+import Skyline from "../assets/skyline.jpg";
 import "./Home.css";
 import { HashLink, HashLink as Link } from "react-router-hash-link";
 import SwiperTeams from "../components/SwiperTeams";
@@ -16,6 +19,13 @@ import {
   ScaleIcon,
 } from "@heroicons/react/24/outline";
 import Button from "../components/Button";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y,Autoplay } from "swiper";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 
 export default function Landing() {
@@ -53,11 +63,10 @@ export default function Landing() {
                 </div>
                 <div className="pr-12">
                   <p className="mt-4 text-lg text-gray-300">
-                    Coghlan, Welsh and Guest is a law firm that provides trusted
-                    legal advocacy for a variety of legal matters. With a
-                    commitment to defending your rights with integrity and
-                    expertise, we offer legal services that prioritize our
-                    clients' best interests.
+                  Coghlan, Welsh and Guest is a law firm
+                  that provides trusted legal advice and individualised solutions. With a commitment to safeguarding
+                  our client's rights with integrity and expertise, we offer legal
+                  services that prioritize our clients' best interests.
                   </p>
                   <HashLink
                   smooth
@@ -96,7 +105,7 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg hover:animate-bounce rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
                       <BuildingLibraryIcon />
@@ -118,9 +127,10 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
+              
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg hover:animate-bounce rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
                       <GlobeEuropeAfricaIcon />
@@ -142,22 +152,21 @@ export default function Landing() {
               </div>
 
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg  hover:animate-bounce">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-700">
                       <ScaleIcon />
                     </div>
                     <h6 className="text-xl font-semibold">Our Vision</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      At our law firm, our values are rooted in our commitment
-                      to providing exceptional legal services to our clients.
+                    As a forward-thinking law firm that has undoubtedly stood the test of
+                    time, we strive to become the go-to corporate attorneys not only in
+                    Zimbabwe but across the globe.<br/>
+                    To maintain our status as the leading full-service and future- facing
+                    commercial law firm.
                     </p>
 
-                    <h6 className="text-sm font-semibold ">
-                      <Link smooth to="#ValuesSect">
-                        Learn more<span aria-hidden="true">&rarr;</span>
-                      </Link>
-                    </h6>
+
                   </div>
                 </div>
               </div>
@@ -165,21 +174,19 @@ export default function Landing() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+                <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg  rounded-full bg-gray-100">
                   <img src={medalIcon} alt="medalIcon" />
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
                   Working with us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  When it comes to legal matters, having a trusted team of
-                  advocates on your side can make all the difference. That's why
-                  Coghlan, Welsh and Guest is committed to providing our clients
-                  with personalized attention and individualized solutions. With
-                  their extensive legal experience and unwavering dedication,
-                  you can trust that they will be with you every step of the
-                  way, fighting to protect your rights and achieve the best
-                  possible outcome.
+                When it comes to legal matters, having a trusted team of attorneys on your side can
+                make all the difference. That's why Coghlan, Welsh and Guest incorporating
+                Stumbles & Rowe is committed to providing you with personalized attention and
+                individualized solutions. With our extensive legal experience and unwavering
+                dedication, you can trust that we will be with you every step of the way, fighting to
+                protect your rights and interests to achieve the best outcome.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"></p>
                 <HashLink
@@ -195,7 +202,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ">
                   <img
                     alt="..."
-                    src={Thembiwe}
+                    src={Skyline}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -215,16 +222,14 @@ export default function Landing() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-gray-900">
-                      Advocating for Your Rights
+                    Our value proposition
                     </h4>
                     <p className="text-md font-light mt-2 text-gray-700">
-                      "Our law firm is dedicated to providing exceptional legal
-                      services to our clients. We take pride in our commitment
-                      to excellence and our ability to achieve successful
-                      outcomes for our clients. Our team of experienced lawyers
-                      is skilled in a wide range of practice areas, including
-                      personal injury, workers' compensation, employment law,
-                      and more."<b>- Managing partner</b>
+                    Our teams understand you and your business and we are structured according to the
+                    industries you operate in. Our focus is on helping you identify and mitigate risk while
+                    enabling your business to thrive. We care about the impact of investment and business on
+                    environment and operating ethically at the intersection of innovation, profitability and
+                    regulation.
                     </p>
                   </blockquote>
                 </div>
@@ -257,11 +262,34 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <img
+              <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        
+        autoplay={{delay:2000}}
+        
+        
+        className="mySwiper px-4 pt-5 text-xs"
+      >
+         <SwiperSlide><img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                   src={LocationPic}
-                />
+                /></SwiperSlide>
+         <SwiperSlide><img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={LocationPic2}
+                /></SwiperSlide>
+         <SwiperSlide><img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={LocationPic3}
+                /></SwiperSlide>
+         
+
+                </Swiper>
               </div>
               <div
                 className="w-full md:w-5/12 ml-auto mr-auto px-4"
@@ -275,11 +303,9 @@ export default function Landing() {
                     Our Values in Action.
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    These are the guiding principles that drive our organization
-                    forward. We are proud of our commitment to integrity,
-                    diligence, excellence, alliances, and leadership, and we
-                    believe that they are the key to our continued success and
-                    growth.
+                  These are the guiding principles that drive our organization forward. We are proud of
+                  our commitment to integrity, diligence, excellence, alliances, leadership and
+                  teamwork and we believe that they are the key to our continued success and growth.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -293,9 +319,8 @@ export default function Landing() {
                           <h4 className="text-gray-600">
                             <b>Integrity.</b>
                             <br />
-                            We are honest, trustworthy, respectful and ethical
-                            in our actions. We honour our promises and are
-                            accountable for all our actions.
+                            We are honest, trustworthy, respectful and ethical in our actions. We
+honour our promises and are accountable for all our actions.
                           </h4>
                         </div>
                       </div>
@@ -311,8 +336,8 @@ export default function Landing() {
                           <h4 className="text-gray-600">
                             <b>Diligence.</b>
                             <br />
-                            We are meticulous and thorough in our quest to help
-                            businesses achieve their objectives.
+                            We are meticulous and thorough in our quest to help businesses
+achieve their objectives.
                           </h4>
                         </div>
                       </div>
@@ -328,8 +353,8 @@ export default function Landing() {
                           <h4 className="text-gray-600">
                             <b>Excellence.</b>
                             <br />
-                            Excellence is our culture. We deliver quality
-                            service within the shortest period of time.
+                            Excellence is our culture. We deliver quality service within the shortest
+period.
                           </h4>
                         </div>
                       </div>
@@ -345,10 +370,9 @@ export default function Landing() {
                           <h4 className="text-gray-600">
                             <b>Alliances.</b>
                             <br />
-                            We have over the years established service and
-                            stakeholder alliances with local and international
-                            partners. This enables us to deliver quality
-                            client-focused service across the globe.
+                            We have over the years established service and stakeholder alliances
+with local and international partners. This enables us to deliver quality
+client-focused service across the globe.
                           </h4>
                         </div>
                       </div>
@@ -364,12 +388,30 @@ export default function Landing() {
                           <h4 className="text-gray-600">
                             <b> Leadership.</b>
                             <br />
-                            We provide both transformational and thought
-                            leadership in the market.
+                            We provide both transformational and thought leadership in the market.
                           </h4>
                         </div>
                       </div>
                     </li>
+                    <li className="py-2">
+                      <div className="flex items-center">
+                        <div>
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-red-500 mr-3">
+                            <i className="far fa-paper-plane"></i>
+                          </span>
+                        </div>
+                        <div>
+                          <h4 className="text-gray-600">
+                            <b>Teamwork.</b>
+                            <br />
+                            We believe that teamwork breeds efficiency and effectiveness. Teams
+                            have been set up within the firm to enable us to continuously provide
+                            world-class legal advice and solutions.
+                          </h4>
+                        </div>
+                      </div>
+                    </li>
+ 
                   </ul>
                 </div>
               </div>

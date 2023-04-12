@@ -35,7 +35,7 @@ export default function Footer() {
                 Let's keep in touch!
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                Find us on any of these platforms, we respond 1-2 business days.
+                Find us on any of these platforms.
               </h5>
               <div className="mt-6 ">
                 <a href="mailto:edkins@cwg.co.zw">

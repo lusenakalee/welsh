@@ -3,6 +3,7 @@ import cors from 'cors'
 import express from 'express'
 
 const feedURL ="https://african.business/sectors/economy/feed"; 
+const feedURL2 ="https://fingaz.co.zw/feed/"; 
   
 const parser = new RSSParser();
 let articles=[];
@@ -14,17 +15,20 @@ const parse = async url =>{
     
     feed.items.forEach(item=>{
        articles.push({ item  })
-       console.log(`${item.title}\n${item.link}\n\n`)
+       console.log(`${item.title}\n${item.link}`)
     });
    
 }
 
 parse(feedURL);
+parse(feedURL2);
 let app = express();
 app.use(cors());
 app.get('/',(req, res)=>{
     res.send(articles);
 })
+
+
 
 
 

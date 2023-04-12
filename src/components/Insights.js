@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
-
-
+import RssArticles from "./RssArticles";
 
 function Insights() {
   return (
-    <main >
+    <main>
       <Navbar />
       <section className="relative bg-[url(https://images.pexels.com/photos/8730785/pexels-photo-8730785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
-
-        <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+        <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/75"></div>
+      
+        <div className="relative mx-auto max-w-screen-xl px-4 pt-20 sm:px-6 lg:flex lg:h-5/6  lg:items-center lg:px-8">
           <div className="max-w-xl text-center sm:text-left">
             <h1 className="text-3xl font-extrabold sm:text-5xl">
               Stay Up-to-Date
@@ -32,17 +31,15 @@ function Insights() {
               >
                 Articles
               </Link>
-
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        
-        
-      </section>
+     
 
-      </main>
+        <div className="pt-10"> <RssArticles /></div>
+       
+      </section>
+    </main>
   );
 }
 

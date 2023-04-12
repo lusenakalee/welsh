@@ -1,12 +1,16 @@
 import React from "react";
 import { useState } from "react";
 
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y,Autoplay } from "swiper";
+
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import './SwiperTeams.css';
+
 
 
 import Andrew from "../assets/Andrew.jpg";
@@ -34,11 +38,12 @@ export default function SwiperTeams() {
   return (
     <>
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
+        modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay,]}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         navigation 
         autoplay={{delay:10000}}
+       
         
         
         className="mySwiper px-4 pt-5 text-xs"
@@ -77,7 +82,8 @@ export default function SwiperTeams() {
                     Matrimonial Law, Civil Litigation.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
+                      
                       Fraser Edkins became the firm’s senior partner and
                       chairman on the 1st of January 2016. Prior to assuming his
                       new role Fraser was in general practice (including
@@ -107,11 +113,13 @@ export default function SwiperTeams() {
           <section>
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                   src={Mazingi}
                 />
+                                  <p className="text-gray-700 text-base">Senior Partner</p>
                 <div className="pt-5">
                   <a href="mailto:edkins@cwg.co.zw">
                     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -141,7 +149,8 @@ export default function SwiperTeams() {
                     (oil, gas and electricity).{" "}
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
+                      
                       She is heavily involved in corporate governance and
                       compliance, regulatory issues, more particularly the
                       interpretation of diverse range of legislation, evaluating
@@ -200,7 +209,8 @@ export default function SwiperTeams() {
                     Media and Human Rights.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
+                      
                       Nokuthula Moyo is one of Zimbabwe’s leading employment
                       lawyers and heads the firm’s Employment department. She
                       has extensive experience in all aspects of employment law,
@@ -257,7 +267,8 @@ export default function SwiperTeams() {
                     Restructuring, Joint Foreign Exchange and Banking).
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
+                      
                       Andrew Paul Lane-Mitchell is one of the Lead Partners of
                       the firm’s corporate and commercial law division having
                       practiced in many years in the corporate sector. Andrew’s
@@ -311,7 +322,8 @@ export default function SwiperTeams() {
                     Rights Law and Media Law.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
+                      
                       David leads the firm’s criminal law department and has a
                       wealth of knowledge and experience in criminal law and
                       procedure having served as a magistrate for many years
@@ -360,7 +372,8 @@ export default function SwiperTeams() {
                     employment law.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
+                      
                       He has advised major local and international corporates in
                       the commodities and renewable energy sectors. He has been
                       involved in the negotiation, structuring and advising
@@ -424,7 +437,8 @@ export default function SwiperTeams() {
                     Intellectual Property and Conveyancing Department.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
+                      
                       Intellectual Property Nyadzi specialises in intellectual
                       property registration (locally, regionally and
                       internationally), advisory, assignment and cession of
@@ -499,7 +513,7 @@ export default function SwiperTeams() {
                     Notary Public.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
                       {" "}
                       Samantha’ specialties includes in civil litigation with an
                       inclination towards family law; corporate and commercial
@@ -532,7 +546,7 @@ export default function SwiperTeams() {
                   src={Daniel}
                 />
                 <div className="pt-5">
-                  <p className="text-gray-700 text-base">Associate</p>
+                  <p className="text-gray-700 text-base">Partner</p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
                   <a href="mailto:daniel@cwg.co.zw">
@@ -551,21 +565,25 @@ export default function SwiperTeams() {
                 <div className="md:pr-12">
                   <h3 className=" font-semibold">DANIEL T. M. MATAWU</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
-                    Position: Associate Qualification: LLB (UL) , LLM (UCT) SA
-                    Year of registration: 2017
+                    Qualification: LLB (UL) , LLM (UCT) SA
+                    
+                    Daniel joined the firm in 2016 and steadily rose through the ranks into Partnership in
+                      2022.<br/>
+                      During Daniel’s tenure with the firm, he has had the opportunity to oversee high
+                      value commercial litigation some of which involving local and international
+                      corporates.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
                       {" "}
-                      Daniel joined the Firm in 2016. As an associate he has
-                      been working in the litigation department where he has
-                      dealt with various issues pertaining to labour law,
-                      general company law and drafting and reviewing agreements
-                      related to commercial transactions. Besides hisability to
-                      draft pleadings for court and arbitration proceedings,
-                      Daniel has experience in representing a vast array of
-                      companies and individuals in the Magistrates Court and
-                      High Court of Zimbabwe.
+
+                      Daniel also has vast experience in employment law where he has had advised on
+                      issues to do with restructuring and retrenchment just to mention a few.
+                      From a compliance perspective, Daniel has worked in house for a multinational
+                      corporation. Through the in-house experience he has managed to “sharpen his eye”
+                      and be better placed to identify risk and to deal with all related compliance issues.
+                      In his spare time, he enjoys watching and playing sport. His enjoyment of sport has
+                      driven him to work towards the establishment of the firm’s sports law department.
                     </p>
                   ) : null}
                   <button onClick={() => setShow(!show)}>View all</button>
@@ -608,7 +626,7 @@ export default function SwiperTeams() {
                     Year of registration: 2017
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
                       {" "}
                       Ennocent joined our Corporate and Commercial Law team in
                       October 2019, having been a leading Corporate Banker for a
@@ -675,7 +693,7 @@ export default function SwiperTeams() {
                     Association of Zimbabwe.
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
                       {" "}
                       Apart from her legal interests, she enjoys philanthropic
                       work and charity to which she is a member of No Child Left
@@ -721,7 +739,7 @@ export default function SwiperTeams() {
                     Qualifications: LLB (UNISA)
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
                       {" "}
                       Dillon joined the firm in 2020. As an Associate, he has
                       been working in Corporate and Commercial Law department
@@ -772,7 +790,7 @@ export default function SwiperTeams() {
                     law, Aviation law, Family law, Trusts, and Estate planning
                   </p>
                   {show ? (
-                    <p>
+                    <p className="text-gray-600">
                       {" "}
                       William joined the Litigation and Commercial law
                       Departments of the firm in June 2021. He has a keen

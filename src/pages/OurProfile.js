@@ -76,13 +76,9 @@ export default function OurProfile() {
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
                     Headquarters : Harare, Harare
                   </div>
-                  <div className="mb-2 text-gray-700 mt-10">
-                    <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
-                    Founded : 1911
-                  </div>
+
                   <div className="mb-2 text-gray-700">
                     <i className="fas fa-university mr-2 text-lg text-gray-500"></i>
-                    <b>Specialties : </b>Infrastructure/PPP, Mining and Energy, Banking and Finance, Intellectual Property, Capital Markets,<br/> Arbitration and Commercial Dispute Resolution, Tax Planning, Financial Services and Regulation, Property and Securities,<br/> Cyber Security and Commercial Crime, Technology,Media and Telecommunications, and Bankruptcy Insolvency and Restructuring
                   </div>
           
                 </div>
@@ -90,17 +86,37 @@ export default function OurProfile() {
                   <div className="flex flex-wrap justify-center text-left">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-gray-800">
-                      At<b> Coghlan, Welsh & Guest,</b> our number one priority is our client and we place quality at the forefront of everything we do. Putting our client first is a simple philosophy, but it is one that flows throughout every part of our business and underpins everything we do. We listen to our clients, understand their
-                        commercial needs and provide them with practical legal advice which is tailored to those needs. It is this simple approach that ensures we forge strong and close relationships with our clients that are built on trust.
-
-                        We are a full-service law firm comprising a strong and competent group of lawyers. Our people are our greatest asset! Being one of the largest law firms in the country we pride ourselves on our broad expertise and the diversity of our members. Our firm’s complement of partners, associates and staff presently numbers seventy-two. Separate from the partnership but owned by it is an executor and trustee company which, inter alia, looks after the estates and trust work of the partnership. 
+                      At <b>Coghlan, Welsh & Guest</b>, our number one priority is our client, and we
+                      place quality at the forefront of everything we do. Putting our client first is a
+                      simple philosophy, but it is one that flows throughout every part of our
+                      business and underpins everything we do. We listen to our clients,
+                      understand their commercial needs and provide them with practical legal
+                      advice which is tailored to those needs. It is this simple approach that
+                      ensures we forge strong and close relationships with our clients that are
+                      built on trust. We are a full-service law firm comprising a strong and
+                      competent group of lawyers.
                         
-                        <span><br/>  </span>
                         <span> <br/></span>
                         <span> <br/> </span>
-                        To ensure that we maintain the high levels of quality, for which we are reputable, each project or case we handle is overseen at any stage by a partner in the firm.
-
-                        Whilst we maintain a single central office in Harare but we have extensive experience in representing clients across the country. Our firm has also developed networks and close relations with international law firms globally, including South Africa, the United States of America, the United Kingdom and in the SADC region.
+                        Our people are our greatest asset! That is why go all out in recruiting the best in the market.
+                        <br></br>
+                        <br></br>
+                        Being one of the largest law firms in Zimbabwe we pride
+                        ourselves on our broad expertise and the diversity of our members.
+                        Separate from the partnership but owned by it is an executor and trustee
+                        company which, inter alia, looks after the estates and trust work of the
+                        partnership.
+                        <br></br>
+                        <br></br>
+                        To ensure that we maintain the high levels of quality, for which we are
+                        reputable, each project or case we handle is overseen at every stage
+                        by a partner in the firm. Whilst we maintain a single central office in Harare
+                        we have extensive experience in representing clients across the
+                        country. As proof of our ambition of setting up the firm’s footprint globally,
+                        we have developed networks and close relations with
+                        regional and international law firms globally, including South Africa, the
+                        United States of America, the United Kingdom and China just to mention a
+                        few.
                       </p>
                       
                     </div>
