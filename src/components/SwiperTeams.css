@@ -1,15 +1,15 @@
 .swiper-button-prev{
-    color: red;
+    color: black;
     display: none;
 
 }
 .swiper-button-next{
-    color: red;
+    color: black;
     display: none;
 
 }
 .swiper-pagination-bullet{
-    color: red;
+    color: black;
 }
 
 @media only screen and (min-width: 720px) {

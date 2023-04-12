@@ -17,7 +17,7 @@ export default function ExpertiseAccordion() {
       <div className="text-left">
 
       <Accordion open={open === 1}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(1)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(1)}>
         Infrastructure/PPP
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -31,7 +31,7 @@ advise on bank and capital markets financing, as well as exchange control and ot
 services regulatory issues.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 2}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(2)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(2)}>
         Mining & Renewable Energy
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -53,7 +53,7 @@ matters and compliance with international standards
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(3)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(3)}>
         Banking & Finance
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -70,7 +70,7 @@ collective and diverse experience to provide our clients with practical and stra
 helps to achieve the client’s business needs.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 4}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(4)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(4)}>
         Property
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -88,7 +88,7 @@ property related issues.
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 5}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(5)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(5)}>
         Financial Services & Regulatory
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -100,7 +100,7 @@ experience and capability to guide clients in exchange control, indigenisation l
 dealing and market manipulation laws, public policy and regulatory sanctions.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 6}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(6)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(6)}>
         Capital Markets
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -113,7 +113,7 @@ local banks and financial institutions, major corporates (both local and interna
 and new entrants to the stock exchange and in the capital markets.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 7}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(7)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(7)}>
         Arbitration & Commercial Dispute Resolution
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -129,7 +129,7 @@ solving. Our members have experience as sole counsel, or led by members of the B
 courts in Zimbabwe.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 8}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(8)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(8)}>
         Intellectual Property
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -144,7 +144,7 @@ organizations. Our intellectual Property Law team is well equipped with many yea
 experience.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 9}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(9)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(9)}>
         Employment
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -160,7 +160,7 @@ resolution and employee share incentive schemes. Our team also has many years of
 in labour litigation and alternative dispute resolution, compliance, training and education.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 10}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(10)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(10)}>
         Tax Planning
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -170,7 +170,7 @@ regulatory requirements, transfer pricing customs and excise compliance reviews,
 support and tax dispute resolution.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 11}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(11)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(11)}>
         Bankruptcy, Insolvency & Restructuring
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -181,7 +181,7 @@ involved and advised in the liquidations and judicial managements of numerous en
 Zimbabwe including banking institutions and companies both listed and private.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 12}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(12)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(12)}>
         Technology, Media & Telecommunications
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -192,7 +192,7 @@ media and broadcasting licensing and regulation, telecommunications corporate,
 commercial ,compliance and regulatory advice.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 13}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(13)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(13)}>
         Environmental Law
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -202,7 +202,7 @@ appeals and reviews of administrative decisions, water law and policy, hazardous
 management and importation and transit of hazardous substances        </AccordionBody>
       </Accordion>
       <Accordion open={open === 14}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(14)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(14)}>
         Cyber Security & Commercial Crime
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -212,7 +212,7 @@ specialist criminal defence attorneys who practise in all courts throughout Zimb
 courts in Zimbabwe. Immigration matters are also handled by this specialist division.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 15}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(15)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(15)}>
         Family Law
         </AccordionHeader>
         <AccordionBody className='text-white'>
@@ -222,7 +222,7 @@ have handled high profile cases most which are reported in the Zimbabwe law repo
 proud of the contribution we have made in the development on the law in area.        </AccordionBody>
       </Accordion>
       <Accordion open={open === 16}>
-        <AccordionHeader className='text-red-500'onClick={() => handleOpen(16)}>
+        <AccordionHeader className='text-white'onClick={() => handleOpen(16)}>
         Trusts & Estate Planning
         </AccordionHeader>
         <AccordionBody className='text-white'>
