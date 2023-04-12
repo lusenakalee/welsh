@@ -135,7 +135,7 @@ export default function SwiperTeams() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
-                  <h3 className=" font-semibold">Mrs Mazingi</h3>
+                  <h3 className=" font-semibold">THEMBIWE C. MAZINGI</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
                     Practice Head: Conveyancing& Securities Intellectual
                     Property Year of Registration: 1982 Qualifications: BL
@@ -200,7 +200,7 @@ export default function SwiperTeams() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
-                  <h3 className=" font-semibold">Nokuthula Moyo</h3>
+                  <h3 className=" font-semibold">NOKUTHULA MOYO</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
                     Year of Registration: 1994 Qualifications: LLBS (Hons) (Zim)
                     Status: Admitted to practise as a Legal Practitioner, Notary
@@ -295,59 +295,10 @@ export default function SwiperTeams() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={David}
-                />
-                <div className="pt-5">
-                  <p className="text-gray-700 text-base">Partner</p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:dhumbura@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
-                <div className="md:pr-12">
-                  <h3 className=" font-semibold">DAVID C. DHUMBURA</h3>
-                  <p className="mt-4  leading-relaxed text-gray-600">
-                    Year of Registration: 2003 Qualifications: LLBS (Hons) (Zim)
-                    Main areas of Practice Criminal Law, Labour Law, Human
-                    Rights Law and Media Law.
-                  </p>
-                  {show ? (
-                    <p className="text-gray-600">
-                      
-                      David leads the firm’s criminal law department and has a
-                      wealth of knowledge and experience in criminal law and
-                      procedure having served as a magistrate for many years
-                      before joining private practice.
-                    </p>
-                  ) : null}
-                  <button onClick={() => setShow(!show)}>View all</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <section>
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
                   src={Wellington}
                 />
                 <div className="pt-5">
-                  <p className="text-gray-700 text-base">Partner</p>
+                  <p className="text-gray-700 text-base">Senior Partner</p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
                   <a href="mailto:magaya@cwg.co.zw">
@@ -393,6 +344,111 @@ export default function SwiperTeams() {
                       Zimbabwe where we he serves in the Finance and
                       Administration Committee as well as the Liaison and
                       Publicity Committees..
+                    </p>
+                  ) : null}
+                  <button onClick={() => setShow(!show)}>View all</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <section>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={David}
+                />
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Partner</p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <a href="mailto:dhumbura@cwg.co.zw">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      Email
+                    </span>
+                  </a>
+                  <a href="tel:+263242794930">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      Call
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+                <div className="md:pr-12">
+                  <h3 className=" font-semibold">DAVID C. DHUMBURA</h3>
+                  <p className="mt-4  leading-relaxed text-gray-600">
+                    Year of Registration: 2003 Qualifications: LLBS (Hons) (Zim)
+                    Main areas of Practice Criminal Law, Labour Law, Human
+                    Rights Law and Media Law.
+                  </p>
+                  {show ? (
+                    <p className="text-gray-600">
+                      
+                      David leads the firm’s criminal law department and has a
+                      wealth of knowledge and experience in criminal law and
+                      procedure having served as a magistrate for many years
+                      before joining private practice.
+                    </p>
+                  ) : null}
+                  <button onClick={() => setShow(!show)}>View all</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
+        <SwiperSlide>
+          <section>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={Daniel}
+                />
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Partner</p>
+                </div>
+                <div className="px-6 pt-4 pb-2">
+                  <a href="mailto:daniel@cwg.co.zw">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      Email
+                    </span>
+                  </a>
+                  <a href="tel:+263242794930">
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                      Call
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+                <div className="md:pr-12">
+                  <h3 className=" font-semibold">DANIEL TAWANDA MATAWU</h3>
+                  <p className="mt-4  leading-relaxed text-gray-600">
+                    Qualification: LLB (UL) , LLM (UCT) SA
+                    
+                    Daniel joined the firm in 2016 and steadily rose through the ranks into Partnership in
+                      2022.<br/>
+                      During Daniel’s tenure with the firm, he has had the opportunity to oversee high
+                      value commercial litigation some of which involving local and international
+                      corporates.
+                  </p>
+                  {show ? (
+                    <p className="text-gray-600">
+                      {" "}
+
+                      Daniel also has vast experience in employment law where he has had advised on
+                      issues to do with restructuring and retrenchment just to mention a few.
+                      From a compliance perspective, Daniel has worked in house for a multinational
+                      corporation. Through the in-house experience he has managed to “sharpen his eye”
+                      and be better placed to identify risk and to deal with all related compliance issues.
+                      In his spare time, he enjoys watching and playing sport. His enjoyment of sport has
+                      driven him to work towards the establishment of the firm’s sports law department.
                     </p>
                   ) : null}
                   <button onClick={() => setShow(!show)}>View all</button>
@@ -536,62 +592,6 @@ export default function SwiperTeams() {
           </section>
         </SwiperSlide>
 
-        <SwiperSlide>
-          <section>
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src={Daniel}
-                />
-                <div className="pt-5">
-                  <p className="text-gray-700 text-base">Partner</p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:daniel@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
-                <div className="md:pr-12">
-                  <h3 className=" font-semibold">DANIEL T. M. MATAWU</h3>
-                  <p className="mt-4  leading-relaxed text-gray-600">
-                    Qualification: LLB (UL) , LLM (UCT) SA
-                    
-                    Daniel joined the firm in 2016 and steadily rose through the ranks into Partnership in
-                      2022.<br/>
-                      During Daniel’s tenure with the firm, he has had the opportunity to oversee high
-                      value commercial litigation some of which involving local and international
-                      corporates.
-                  </p>
-                  {show ? (
-                    <p className="text-gray-600">
-                      {" "}
-
-                      Daniel also has vast experience in employment law where he has had advised on
-                      issues to do with restructuring and retrenchment just to mention a few.
-                      From a compliance perspective, Daniel has worked in house for a multinational
-                      corporation. Through the in-house experience he has managed to “sharpen his eye”
-                      and be better placed to identify risk and to deal with all related compliance issues.
-                      In his spare time, he enjoys watching and playing sport. His enjoyment of sport has
-                      driven him to work towards the establishment of the firm’s sports law department.
-                    </p>
-                  ) : null}
-                  <button onClick={() => setShow(!show)}>View all</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </SwiperSlide>
 
         <SwiperSlide>
           <section>

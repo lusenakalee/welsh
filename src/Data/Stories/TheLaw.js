@@ -5,11 +5,7 @@ function TheLaw() {
     <div>
       <article className="prose lg:prose-base max-w-none">
         <h2 className="underline underline-offset-8">The Law</h2>
-        <p>
-          On the 16 th of December 2022, the Base Minerals Export Control
-          (Lithium Bearing Ores and Unbeneficiated Lithium) Order, 2022 (S.I.
-          213 of 2022) was promulgated.
-        </p>
+
         In brief S.I. 213 of 2022 provided as follows:
         <br />
         <p>
