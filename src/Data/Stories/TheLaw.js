@@ -5,6 +5,7 @@ function TheLaw() {
     <div>
       <article className="prose lg:prose-base max-w-none">
         <h2 className="underline underline-offset-8">The Law</h2>
+        <p>On the 16 th of December 2022, the Base Minerals Export Control (Lithium Bearing Ores and Unbeneficiated Lithium) Order, 2022 (S.I. 213 of 2022) was promulgated.</p>
 
         In brief S.I. 213 of 2022 provided as follows:
         <br />
@@ -194,16 +195,14 @@ function TheLaw() {
           further down the value chain of mineral processing.
         </p>
         <p>
-          Coghlan Welsh &amp; Guest is a full service law firm with an
+          <b>
+          Coghlan Welsh & Guest is a full service law firm with an
           outstanding energy, mining and commodities practice, representing
           lenders, developers and sponsors in significant projects in Zimbabwe.
-          For enquiries, please do not hesitate to contact us.
+          For enquiries, please do not hesitate to contact us.</b>
         </p>
-        <p>
-          <b>DISCLAIMER : </b>This article is for information purposes only and
-          does not constitute legal advice. You should not take action based on
-          this information without consulting a legal practitioner. This article
-          is not intended to create a legal practitioner – client relationship.
+        <p className="italic">
+          <b>DISCLAIMER : </b>This article is for information purposes only and does not constitute legal advice. This article is not intended to create a legal practitioner – client relationship. You should not take action based on this information without consulting one of our legal practitioners.
         </p>
       </article>
     </div>

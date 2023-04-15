@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Team", href: "/#AttorneysSect", current: true },
+  { name: "Our Team", href: "/#AttorneysSect", current: true },
   { name: "Expertise", href: "/#ExpertiseSect", current: false },
   { name: "Contact us", href: "/#ContactSection", current: false },
 ];

@@ -59,16 +59,8 @@ export default function SwiperTeams() {
                 />
                 <div className="pt-5">
                   <p className="text-gray-700 text-base">Senior Partner</p>
-                  <a href="mailto:edkins@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
+
+
                 </div>
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
@@ -119,18 +111,11 @@ export default function SwiperTeams() {
                   className="max-w-full rounded-lg shadow-lg"
                   src={Mazingi}
                 />
-                                  <p className="text-gray-700 text-base">Senior Partner</p>
+                                  <p className="text-gray-700 text-base">Managing Partner</p>
                 <div className="pt-5">
-                  <a href="mailto:edkins@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
+
+               
+
                 </div>
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
@@ -187,16 +172,8 @@ export default function SwiperTeams() {
                   className="max-w-full rounded-lg shadow-lg"
                   src={Moyo}
                 />
-                <div className="pt-5">
-                  <a href="mailto:moyon@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    Call
-                  </span>
-                </div>
+                                  <p className="text-gray-700 text-base"> Partner</p>
+
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
@@ -244,18 +221,7 @@ export default function SwiperTeams() {
                 <div className="pt-5">
                   <p className="text-gray-700 text-base">Partner</p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:alm@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
+
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
@@ -288,6 +254,44 @@ export default function SwiperTeams() {
           </section>
         </SwiperSlide>
 
+
+        <SwiperSlide>
+          <section>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={David}
+                />
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Partner</p>
+                </div>
+          
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+                <div className="md:pr-12">
+                  <h3 className=" font-semibold">DAVID C. DHUMBURA</h3>
+                  <p className="mt-4  leading-relaxed text-gray-600">
+                    Year of Registration: 2003 Qualifications: LLBS (Hons) (Zim)
+                    Main areas of Practice Criminal Law, Labour Law, Human
+                    Rights Law and Media Law.
+                  </p>
+                  {show ? (
+                    <p className="text-gray-600">
+                      
+                      David leads the firm’s criminal law department and has a
+                      wealth of knowledge and experience in criminal law and
+                      procedure having served as a magistrate for many years
+                      before joining private practice.
+                    </p>
+                  ) : null}
+                  <button onClick={() => setShow(!show)}>View all</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
         <SwiperSlide>
           <section>
             <div className="items-center flex flex-wrap">
@@ -298,20 +302,9 @@ export default function SwiperTeams() {
                   src={Wellington}
                 />
                 <div className="pt-5">
-                  <p className="text-gray-700 text-base">Senior Partner</p>
+                  <p className="text-gray-700 text-base">Partner</p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:magaya@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
+
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
@@ -352,111 +345,6 @@ export default function SwiperTeams() {
             </div>
           </section>
         </SwiperSlide>
-
-        <SwiperSlide>
-          <section>
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src={David}
-                />
-                <div className="pt-5">
-                  <p className="text-gray-700 text-base">Partner</p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:dhumbura@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
-                <div className="md:pr-12">
-                  <h3 className=" font-semibold">DAVID C. DHUMBURA</h3>
-                  <p className="mt-4  leading-relaxed text-gray-600">
-                    Year of Registration: 2003 Qualifications: LLBS (Hons) (Zim)
-                    Main areas of Practice Criminal Law, Labour Law, Human
-                    Rights Law and Media Law.
-                  </p>
-                  {show ? (
-                    <p className="text-gray-600">
-                      
-                      David leads the firm’s criminal law department and has a
-                      wealth of knowledge and experience in criminal law and
-                      procedure having served as a magistrate for many years
-                      before joining private practice.
-                    </p>
-                  ) : null}
-                  <button onClick={() => setShow(!show)}>View all</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </SwiperSlide>
-        <SwiperSlide>
-          <section>
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src={Daniel}
-                />
-                <div className="pt-5">
-                  <p className="text-gray-700 text-base">Partner</p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:daniel@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
-                <div className="md:pr-12">
-                  <h3 className=" font-semibold">DANIEL TAWANDA MATAWU</h3>
-                  <p className="mt-4  leading-relaxed text-gray-600">
-                    Qualification: LLB (UL) , LLM (UCT) SA
-                    
-                    Daniel joined the firm in 2016 and steadily rose through the ranks into Partnership in
-                      2022.<br/>
-                      During Daniel’s tenure with the firm, he has had the opportunity to oversee high
-                      value commercial litigation some of which involving local and international
-                      corporates.
-                  </p>
-                  {show ? (
-                    <p className="text-gray-600">
-                      {" "}
-
-                      Daniel also has vast experience in employment law where he has had advised on
-                      issues to do with restructuring and retrenchment just to mention a few.
-                      From a compliance perspective, Daniel has worked in house for a multinational
-                      corporation. Through the in-house experience he has managed to “sharpen his eye”
-                      and be better placed to identify risk and to deal with all related compliance issues.
-                      In his spare time, he enjoys watching and playing sport. His enjoyment of sport has
-                      driven him to work towards the establishment of the firm’s sports law department.
-                    </p>
-                  ) : null}
-                  <button onClick={() => setShow(!show)}>View all</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </SwiperSlide>
         <SwiperSlide>
           <section>
             <div className="items-center flex flex-wrap">
@@ -467,24 +355,13 @@ export default function SwiperTeams() {
                   src={Matlida}
                 />
                 <div className="pt-5">
-                  <p className="text-gray-700 text-base">Associate</p>
+                  <p className="text-gray-700 text-base">Partner</p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:nyadzi@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
+               
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
-                  <h3 className=" font-semibold">NYADZISAI MATLIDA CHIKWENE</h3>
+                  <h3 className=" font-semibold">MATLIDA N. CHIKWENE</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
                     Nyadzisai M. Chikwene has been with Coghlan Welsh & Guest
                     for over ten years and in those years has worked in
@@ -531,6 +408,184 @@ export default function SwiperTeams() {
             </div>
           </section>
         </SwiperSlide>
+        <SwiperSlide>
+          <section>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={Daniel}
+                />
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Partner</p>
+                </div>
+          
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+                <div className="md:pr-12">
+                  <h3 className=" font-semibold">DANIEL T. M. MATAWU</h3>
+                  <p className="mt-4  leading-relaxed text-gray-600">
+                    Qualification: LLB (UL) , LLM (UCT) SA
+                    
+                    Daniel joined the firm in 2016 and steadily rose through the ranks into Partnership in
+                      2022.<br/>
+                      During Daniel’s tenure with the firm, he has had the opportunity to oversee high
+                      value commercial litigation some of which involving local and international
+                      corporates.
+                  </p>
+                  {show ? (
+                    <p className="text-gray-600">
+                      {" "}
+
+                      Daniel also has vast experience in employment law where he has had advised on
+                      issues to do with restructuring and retrenchment just to mention a few.
+                      From a compliance perspective, Daniel has worked in house for a multinational
+                      corporation. Through the in-house experience he has managed to “sharpen his eye”
+                      and be better placed to identify risk and to deal with all related compliance issues.
+                      In his spare time, he enjoys watching and playing sport. His enjoyment of sport has
+                      driven him to work towards the establishment of the firm’s sports law department.
+                    </p>
+                  ) : null}
+                  <button onClick={() => setShow(!show)}>View all</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
+
+  
+
+
+        <SwiperSlide>
+          <section>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={et}
+                />
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Associate</p>
+                </div>
+                
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+                <div className="md:pr-12">
+                  <h3 className=" font-semibold">ENNOCENT T CHIDAWANYIKA</h3>
+                  <p className="mt-4  leading-relaxed text-gray-600">
+                    Position: Associate Qualification: LLB (UL) , LLM (UCT) SA
+                    Year of registration: 2017
+                  </p>
+                  {show ? (
+                    <p className="text-gray-600">
+                      {" "}
+                      Ennocent joined our Corporate and Commercial Law team in
+                      October 2019, having been a leading Corporate Banker for a
+                      long time, a career which started in 1996 as a Graduate
+                      trainee with an International Bank. Thereafter he held
+                      Senior Executive positions both local and international.
+                      He was admitted to practice law in March 2021. His special
+                      responsibilities are in Mining, Energy and Banking. The
+                      main areas of interest are Mergers & Acquisitions, and all
+                      aspects of Corporate and commercial Law. He is also a
+                      Conveyancer and Notary Public. To gravitate into Law,
+                      Ennocent graduated LLB with a Cum laude, Master of Law LLM
+                      (Mining, Gas, Oil & Petroleum Law) with the University of
+                      Cape Town, and is a PhD (Mining Law) Candidate.
+                    </p>
+                  ) : null}
+                  <button onClick={() => setShow(!show)}>View all</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
+        <SwiperSlide>
+          <section>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={dc}
+                />
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Associate</p>
+                </div>
+                
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+                <div className="md:pr-12">
+                  <h3 className=" font-semibold">DILLON CHEMHERE</h3>
+                  <p className="mt-4  leading-relaxed text-gray-600">
+                    Year of Registration: 2021 Email: dillon@cwg.co.zw
+                    Qualifications: LLB (UNISA)
+                  </p>
+                  {show ? (
+                    <p className="text-gray-600">
+                      {" "}
+                      Dillon joined the firm in 2020. As an Associate, he has
+                      been working in Corporate and Commercial Law department
+                      where he has dealt with various issues of general company
+                      law, drafting, and reviewing of agreements related to
+                      commercial transactions. Dillon is also interested in
+                      litigation work.{" "}
+                    </p>
+                  ) : null}
+                  <button onClick={() => setShow(!show)}>View all</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <section>
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-lg"
+                  src={Lisa}
+                />
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Associate</p>
+                </div>
+                
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+                <div className="md:pr-12">
+                  <h3 className=" font-semibold">LISA B. ZVINAVASHE</h3>
+                  <p className="mt-4  leading-relaxed text-gray-600">
+                    Year of registration: 2021
+                    <br />
+                    Qualifications: Bachelor of Laws (UNISA)
+                    <br />
+                    Status : Admitted to practice as a Legal Practitioner in
+                    Zimbabwe
+                    <br />
+                    Lisa joined Coghlan, Welsh & Guest in November 2020 as an
+                    intern and was admitted as an Associate in June 2022. Lisa’s
+                    practice areas include labour law, criminal law, company law
+                    and civil litigation. Lisa is a member of the Young Lawyers
+                    Association of Zimbabwe.
+                  </p>
+                  {show ? (
+                    <p className="text-gray-600">
+                      {" "}
+                      Apart from her legal interests, she enjoys philanthropic
+                      work and charity to which she is a member of No Child Left
+                      Unclothed charity organization.{" "}
+                    </p>
+                  ) : null}
+                  <button onClick={() => setShow(!show)}>View all</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </SwiperSlide>
 
         <SwiperSlide>
           <section>
@@ -544,18 +599,7 @@ export default function SwiperTeams() {
                 <div className="pt-5">
                   <p className="text-gray-700 text-base">Associate</p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:smbauya@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
+              
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
@@ -591,171 +635,8 @@ export default function SwiperTeams() {
             </div>
           </section>
         </SwiperSlide>
-
-
-        <SwiperSlide>
-          <section>
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src={et}
-                />
-                <div className="pt-5">
-                  <p className="text-gray-700 text-base">Associate</p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:ec@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
-                <div className="md:pr-12">
-                  <h3 className=" font-semibold">ENNOCENT T CHIDAWANYIKA</h3>
-                  <p className="mt-4  leading-relaxed text-gray-600">
-                    Position: Associate Qualification: LLB (UL) , LLM (UCT) SA
-                    Year of registration: 2017
-                  </p>
-                  {show ? (
-                    <p className="text-gray-600">
-                      {" "}
-                      Ennocent joined our Corporate and Commercial Law team in
-                      October 2019, having been a leading Corporate Banker for a
-                      long time, a career which started in 1996 as a Graduate
-                      trainee with an International Bank. Thereafter he held
-                      Senior Executive positions both local and international.
-                      He was admitted to practice law in March 2021. His special
-                      responsibilities are in Mining, Energy and Banking. The
-                      main areas of interest are Mergers & Acquisitions, and all
-                      aspects of Corporate and commercial Law. He is also a
-                      Conveyancer and Notary Public. To gravitate into Law,
-                      Ennocent graduated LLB with a Cum laude, Master of Law LLM
-                      (Mining, Gas, Oil & Petroleum Law) with the University of
-                      Cape Town, and is a PhD (Mining Law) Candidate.
-                    </p>
-                  ) : null}
-                  <button onClick={() => setShow(!show)}>View all</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <section>
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src={Lisa}
-                />
-                <div className="pt-5">
-                  <p className="text-gray-700 text-base">Associate</p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:lzvinavashe@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
-                <div className="md:pr-12">
-                  <h3 className=" font-semibold">LISA ZVINAVASHE</h3>
-                  <p className="mt-4  leading-relaxed text-gray-600">
-                    Year of registration: 2021
-                    <br />
-                    Qualifications: Bachelor of Laws (UNISA)
-                    <br />
-                    Status : Admitted to practice as a Legal Practitioner in
-                    Zimbabwe
-                    <br />
-                    Lisa joined Coghlan, Welsh & Guest in November 2020 as an
-                    intern and was admitted as an Associate in June 2022. Lisa’s
-                    practice areas include labour law, criminal law, company law
-                    and civil litigation. Lisa is a member of the Young Lawyers
-                    Association of Zimbabwe.
-                  </p>
-                  {show ? (
-                    <p className="text-gray-600">
-                      {" "}
-                      Apart from her legal interests, she enjoys philanthropic
-                      work and charity to which she is a member of No Child Left
-                      Unclothed charity organization.{" "}
-                    </p>
-                  ) : null}
-                  <button onClick={() => setShow(!show)}>View all</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </SwiperSlide>
-        <SwiperSlide>
-          <section>
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src={dc}
-                />
-                <div className="pt-5">
-                  <p className="text-gray-700 text-base">Associate</p>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:dillon@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
-                <div className="md:pr-12">
-                  <h3 className=" font-semibold">DILLON CHEMHERE</h3>
-                  <p className="mt-4  leading-relaxed text-gray-600">
-                    Year of Registration: 2021 Email: dillon@cwg.co.zw
-                    Qualifications: LLB (UNISA)
-                  </p>
-                  {show ? (
-                    <p className="text-gray-600">
-                      {" "}
-                      Dillon joined the firm in 2020. As an Associate, he has
-                      been working in Corporate and Commercial Law department
-                      where he has dealt with various issues of general company
-                      law, drafting, and reviewing of agreements related to
-                      commercial transactions. Dillon is also interested in
-                      litigation work.{" "}
-                    </p>
-                  ) : null}
-                  <button onClick={() => setShow(!show)}>View all</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </SwiperSlide>
-        <SwiperSlide>
+  
+        <SwiperSlide id="WilliamProfile">
           <section>
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-1rem">
@@ -767,22 +648,11 @@ export default function SwiperTeams() {
                 <div className="pt-5">
                   <p className="text-gray-700 text-base">Associate</p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:wdiarra@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
+               
               </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left" >
                 <div className="md:pr-12">
-                  <h3 className=" font-semibold">WILLIAM DIARRA</h3>
+                  <h3 className=" font-semibold">WILLIAM F.M. DIARRA</h3>
                   <p className="mt-4  leading-relaxed text-gray-600">
                     Year of Registration: 2021 Email: wdiarra@cwg.co.zw
                     Qualifications: LLB(UCT) Practice Areas : General civil
@@ -818,18 +688,7 @@ export default function SwiperTeams() {
                     Estate Administrator
                   </p>
                 </div>
-                <div className="px-6 pt-4 pb-2">
-                  <a href="mailto:hbe@cwg.co.zw">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Email
-                    </span>
-                  </a>
-                  <a href="tel:+263242794930">
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                      Call
-                    </span>
-                  </a>
-                </div>
+                
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
