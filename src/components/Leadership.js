@@ -192,8 +192,9 @@ export default function Leadership() {
               Meet our leadership
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Libero fames augue nisl porttitor nisi, quis. Id ac elit odio
-              vitae elementum enim vitae ullamcorper suspendisse.
+            With a combined experience of over 50 years, the attorneys at
+                  Coghlan, Welsh and Guest bring a wealth of knowledge and
+                  expertise to each and every case they handle.
             </p>
           </div>
           <ul

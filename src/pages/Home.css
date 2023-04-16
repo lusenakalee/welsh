@@ -80,7 +80,8 @@
 }
 
 .swiper-pagination-bullet{
+  transform: translateY(100%);
 
-margin: 100px;
+
   
 }

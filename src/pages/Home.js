@@ -269,7 +269,12 @@ export default function Landing() {
                               </p>
                             </div>
                           </div>
+                          <br></br>
+                          <br></br>
+                          <br></br>
+                          
                         </SwiperSlide>
+                        
                       ))}
                     </Swiper>
                   </div>
