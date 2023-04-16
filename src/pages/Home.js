@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import cwgLogo from "../assets/cwgLogo.png";
 import medalIcon from "../assets/medal-outline.svg";
-import WorkWithUs from "../assets/WorkWithUs.jpg";
-import Thembiwe from "../assets/Thembiwe.jpg";
+import { Articles } from "../components/Events";
+import ReactIdSwiper from "react-id-swiper";
+
 import LocationPic from "../assets/location.png";
 import LocationPic2 from "../assets/location2.png";
 import LocationPic3 from "../assets/location3.png";
@@ -22,11 +23,14 @@ import {
 import Button from "../components/Button";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
-
+import { Scrollbar, A11y, Autoplay } from "swiper";
+import SwiperCore, { Pagination, Navigation } from "swiper/core";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { eventsData } from "../Data/EventsData";
+
+SwiperCore.use([Pagination, Navigation]);
 
 export default function Landing() {
   return (
@@ -189,74 +193,91 @@ export default function Landing() {
                 </div>
               </div>
             </div>
-
-            <div className="flex flex-wrap items-center mt-32">
-              <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg  rounded-full bg-gray-100">
-                  <img src={medalIcon} alt="medalIcon" />
+            <div className=" py-24 sm:py-32">
+              <div className="">
+                  <div className="w-full  justify-between  ">
+                    <div className="mx-auto max-w-2xl lg:mx-0">
+                      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                      Stay Informed with Our Latest Insights
+                      </h2>
+                      <p className="mt-2 text-lg leading-8 text-gray-600">
+                      Our blog covers the latest legal trends, news, and developments to help you navigate your legal needs.                      </p>
+                    </div>
+                    <div>
+                      <Swiper
+                        className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+                        slidesPerView={3}
+                        modules={[
+                          Navigation,
+                          Pagination,
+                          Scrollbar,
+                          A11y,
+                          Autoplay,
+                        ]}
+                        pagination={{ clickable: true }}
+                        scrollbar={{ draggable: true }}
+                        navigation
+                        autoplay={{ delay: 10000 }}
+                      >
+                       
+                          {eventsData.map((event) => (
+                            <SwiperSlide
+                              key={event.id}
+                              className="flex max-w-xl px-16 flex-col items-start justify-between"
+                              >
+                           
+                           <div className="flex items-center gap-x-4 text-xs">
+                                  <time
+                                    dateTime={event.date}
+                                    className="text-gray-500"
+                                  >
+                                    {event.date}
+                                  </time>
+                                  </div>
+                                  <div className="group relative">
+                                  <img
+              className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
+              src={event.eventImg}
+              alt="blog"
+            />
+                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                                      <a href={event.href}>
+                                        <span className="absolute inset-0" />
+                                        {event.title}
+                                      </a>
+                                    </h3>
+                                    <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                                      {event.details}
+                                    </p>
+                                  </div>
+                                  <div className="relative mt-8 flex items-center gap-x-4">
+                                    <img
+                                      src={event.authorImg}
+                                      alt=""
+                                      className="h-10 w-10 rounded-full bg-gray-50"
+                                    />
+                                    <div className="text-sm leading-6">
+                                      <p className="font-semibold text-gray-900">
+                                        <a href={event.id}>
+                                          <span className="absolute inset-0" />
+                                          {event.authorName}
+                                        </a>
+                                      </p>
+                                      <p className="text-gray-600">
+                                        {event.authorTitle}
+                                      </p>
+                                    </div>
+                                  </div>
+                                  
+                                
+                            </SwiperSlide>
+                          ))}
+                       
+                      </Swiper>
+                    </div>
+                  </div>
                 </div>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
-                </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  When it comes to legal matters, having a trusted team of
-                  attorneys on your side can make all the difference. That's why
-                  Coghlan, Welsh and Guest incorporating Stumbles & Rowe is
-                  committed to providing you with personalized attention and
-                  individualized solutions. With our extensive legal experience
-                  and unwavering dedication, you can trust that we will be with
-                  you every step of the way, fighting to protect your rights and
-                  interests to achieve the best outcome.
-                </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"></p>
-                <HashLink
-                  smooth
-                  to="#ExpertiseSect"
-                  className="font-bold text-red-700 mt-8"
-                >
-                  Explore our Services
-                </HashLink>
               </div>
-
-              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ">
-                  <img
-                    alt="..."
-                    src={Skyline}
-                    className="w-full align-middle rounded-t-lg"
-                  />
-                  <blockquote className="relative p-8 mb-4">
-                    <svg
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 583 95"
-                      className="absolute left-0 w-full block"
-                      style={{
-                        height: "95px",
-                        top: "-94px",
-                      }}
-                    >
-                      <polygon
-                        points="-30,95 583,95 583,65"
-                        className="text-black fill-current"
-                      ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold text-gray-900">
-                      Our value proposition
-                    </h4>
-                    <p className="text-md font-light mt-2 text-gray-700">
-                      Our teams understand you and your business and we are
-                      structured according to the industries you operate in. Our
-                      focus is on helping you identify and mitigate risk while
-                      enabling your business to thrive. We care about the impact
-                      of investment and business on environment and operating
-                      ethically at the intersection of innovation, profitability
-                      and regulation.
-                    </p>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 

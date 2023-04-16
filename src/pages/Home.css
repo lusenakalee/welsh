@@ -45,3 +45,37 @@
 .animate-bounce {
   animation: bounce 1s ease-in-out infinite;
 }
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+ 
+  border-radius: 0%;
+  background-color: transparent;
+  color: #fff;
+  border: px solid #fff;
+  cursor: pointer;
+  font-size: 28px;
+  padding:2px;
+  text-align: center;
+}
+
+.swiper-button-prev {
+  left: 20px;
+}
+
+.swiper-button-next {
+  right: 20px;
+  font-size: 32x;
+  
+
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #fff;
+  color: #000;
+}
