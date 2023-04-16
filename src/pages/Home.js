@@ -29,6 +29,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { eventsData } from "../Data/EventsData";
+import Leadership from "../components/Leadership";
 
 SwiperCore.use([Pagination, Navigation]);
 
@@ -195,89 +196,86 @@ export default function Landing() {
             </div>
             <div className=" py-24 sm:py-32">
               <div className="">
-                  <div className="w-full  justify-between  ">
-                    <div className="mx-auto max-w-2xl lg:mx-0">
-                      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <div className="w-full  justify-between  ">
+                  <div className="mx-auto max-w-2xl lg:mx-0">
+                    <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                       Stay Informed with Our Latest Insights
-                      </h2>
-                      <p className="mt-2 text-lg leading-8 text-gray-600">
-                      Our blog covers the latest legal trends, news, and developments to help you navigate your legal needs.                      </p>
-                    </div>
-                    <div>
-                      <Swiper
-                        className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-                        slidesPerView={3}
-                        modules={[
-                          Navigation,
-                          Pagination,
-                          Scrollbar,
-                          A11y,
-                          Autoplay,
-                        ]}
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        navigation
-                        autoplay={{ delay: 10000 }}
-                      >
-                       
-                          {eventsData.map((event) => (
-                            <SwiperSlide
-                              key={event.id}
-                              className="flex max-w-xl px-16 flex-col items-start justify-between"
-                              >
-                           
-                           <div className="flex items-center gap-x-4 text-xs">
-                                  <time
-                                    dateTime={event.date}
-                                    className="text-gray-500"
-                                  >
-                                    {event.date}
-                                  </time>
-                                  </div>
-                                  <div className="group relative">
-                                  <img
-              className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
-              src={event.eventImg}
-              alt="blog"
-            />
-                                    <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                      <a href={event.href}>
-                                        <span className="absolute inset-0" />
-                                        {event.title}
-                                      </a>
-                                    </h3>
-                                    <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
-                                      {event.details}
-                                    </p>
-                                  </div>
-                                  <div className="relative mt-8 flex items-center gap-x-4">
-                                    <img
-                                      src={event.authorImg}
-                                      alt=""
-                                      className="h-10 w-10 rounded-full bg-gray-50"
-                                    />
-                                    <div className="text-sm leading-6">
-                                      <p className="font-semibold text-gray-900">
-                                        <a href={event.id}>
-                                          <span className="absolute inset-0" />
-                                          {event.authorName}
-                                        </a>
-                                      </p>
-                                      <p className="text-gray-600">
-                                        {event.authorTitle}
-                                      </p>
-                                    </div>
-                                  </div>
-                                  
-                                
-                            </SwiperSlide>
-                          ))}
-                       
-                      </Swiper>
-                    </div>
+                    </h2>
+                    <p className="mt-2 text-lg leading-8 text-gray-600">
+                      Our blog covers the latest legal trends, news, and
+                      developments to help you navigate your legal needs.{" "}
+                    </p>
+                  </div>
+                  <div>
+                    <Swiper
+                      className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+                      slidesPerView={3}
+                      modules={[
+                        Navigation,
+                        Pagination,
+                        Scrollbar,
+                        A11y,
+                        Autoplay,
+                      ]}
+                      pagination={{ clickable: true }}
+                      scrollbar={{ draggable: true }}
+                      navigation
+                      autoplay={{ delay: 10000 }}
+                    >
+                      {eventsData.map((event) => (
+                        <SwiperSlide
+                          key={event.id}
+                          className="flex max-w-xl px-16 flex-col items-start justify-between"
+                        >
+                          <div className="flex items-center gap-x-4 text-xs">
+                            <time
+                              dateTime={event.date}
+                              className="text-gray-500 mb-8 mt-8"
+                            >
+                              {event.date}
+                            </time>
+                          </div>
+                          <div className="group relative">
+                            <img
+                              className="object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl"
+                              src={event.eventImg}
+                              alt="blog"
+                            />
+                            <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                              <Link to={`/Article/${event.id}`}>
+                                <span className="absolute inset-0" />
+                                {event.title}
+                              </Link>
+                            </h3>
+                            <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">
+                              {event.details}
+                            </p>
+                          </div>
+                          <div className="relative mt-8 flex items-center gap-x-4">
+                            <img
+                              src={event.authorImg}
+                              alt=""
+                              className="h-10 w-10 rounded-full bg-gray-50"
+                            />
+                            <div className="text-sm leading-6">
+                              <p className="font-semibold text-gray-900">
+                                <a href={event.id}>
+                                  <span className="absolute inset-0" />
+                                  {event.authorName}
+                                </a>
+                              </p>
+                              <p className="text-gray-600">
+                                {event.authorTitle}
+                              </p>
+                            </div>
+                          </div>
+                        </SwiperSlide>
+                      ))}
+                    </Swiper>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
         </section>
 
@@ -475,7 +473,7 @@ export default function Landing() {
           </div>
         </section>
 
-        <section className="pt-20 pb-0.5" id="AttorneysSect">
+       {/* <section className="pt-20 pb-0.5" id="AttorneysSect">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -489,12 +487,13 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </section>
+                      </section>*/}
 
         <section className="pb-20 pt-0 shadow-lg rounded-lg px-4">
-          <div>
+          <div><Leadership/></div>
+          {/*<div>
             <SwiperTeams />
-          </div>
+                    </div>*/}
         </section>
 
         <section className="pb-20 relative block bg-black">

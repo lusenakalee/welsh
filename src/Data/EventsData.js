@@ -51,9 +51,9 @@ export const eventsData = [
     
       id: '4',
       eventImg: image2,
-      authorImg: "",
+      authorImg: dia,
       authorName: "William Diarra",
-      authorTitle: "",
+      authorTitle: "Associate",
       date: "12 November, 2018",
       title: "The Reserve Bank of Zimbabwe Forex Priority List",
       details:
@@ -67,9 +67,9 @@ export const eventsData = [
     {
     id: '3',
     eventImg: image1,
-    authorImg: "",
+    authorImg: Wellington,
     authorName: "Magaya",
-    authorTitle: "lawyer",
+    authorTitle: "Partner",
     date: "13 NOVEMBER, 2018",
     title: "Registration of securities over movable assets",
     details:
