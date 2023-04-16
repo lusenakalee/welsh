@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 const navigation = [
   { name: "Our Team", href: "/#AttorneysSect", current: true },
   { name: "Expertise", href: "/#ExpertiseSect", current: false },
-  { name: "Contact us", href: "/#ContactSection", current: false },
 ];
 
 function classNames(...classes) {

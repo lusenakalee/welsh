@@ -212,7 +212,7 @@ export default function Leadership() {
                       <div className="text-left gap-x-6">
                         <Disclosure.Button>
                           <div className="flex">
-                            <img  className="h-16 w-16 rounded-full" src={leader.imageUrl} alt=""/>
+                            <img  className="h-16 w-20 rounded-full" src={leader.imageUrl} alt=""/>
                             <div className="pl-2 pt-2" >
                               <h3 className="text-base font-semibold text-left leading-7 tracking-tight text-gray-900">
                                 {leader.name}
