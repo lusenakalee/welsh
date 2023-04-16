@@ -272,7 +272,7 @@ export default function Landing() {
                           <br></br>
                           <br></br>
                           <br></br>
-                          
+
                         </SwiperSlide>
                         
                       ))}
@@ -494,7 +494,7 @@ export default function Landing() {
           </div>
                       </section>*/}
 
-        <section className="pb-20 pt-0 shadow-lg rounded-lg px-4">
+        <section  id="AttorneysSect" className="pb-20 pt-0 shadow-lg rounded-lg px-4">
           <div><Leadership/></div>
           {/*<div>
             <SwiperTeams />
