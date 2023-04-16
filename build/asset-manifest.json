@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0392b829.css",
-    "main.js": "/static/js/main.065f66e8.js",
+    "main.css": "/static/css/main.7351e150.css",
+    "main.js": "/static/js/main.f97d892e.js",
     "static/media/miningrestrictions.jpg": "/static/media/miningrestrictions.5577604b0029b9a66c13.jpg",
-    "static/media/WorkWithUs.jpg": "/static/media/WorkWithUs.d9f0171a80ba05f085dc.jpg",
+    "static/media/location2.png": "/static/media/location2.d2b98ca9e7a38c778260.png",
+    "static/media/location.png": "/static/media/location.64fd0bbcddd36bde7cff.png",
+    "static/media/location3.png": "/static/media/location3.42b891652bb6bb3ac26b.png",
     "static/media/dia.jpg": "/static/media/dia.be85112006a9f63fbbd6.jpg",
     "static/media/rm.jpeg": "/static/media/rm.15199c3aaf0b3d70a8f7.jpeg",
-    "static/media/location.jpg": "/static/media/location.69ee85dccd98775c29b0.jpg",
     "static/media/skyline.jpg": "/static/media/skyline.cb8d204069c890b8b68b.jpg",
     "static/media/image3.jpg": "/static/media/image3.2a73535ebc16d55ef9c8.jpg",
     "static/media/image4.jpg": "/static/media/image4.711bfceb705ebb1c646b.jpg",
     "static/media/image1.jpg": "/static/media/image1.bad22bcb342382c10c4a.jpg",
-    "static/media/location2.jpg": "/static/media/location2.e8eaa49b5ac923f76723.jpg",
     "static/media/image2.jpg": "/static/media/image2.7860378555653f512034.jpg",
-    "static/media/location3.jpg": "/static/media/location3.29ed6d823730785b87e9.jpg",
     "static/media/tester.pdf": "/static/media/tester.ba32d179074bef7aa950.pdf",
     "static/media/et.jpg": "/static/media/et.2a711af268f124a36b5a.jpg",
-    "static/media/Thembiwe.jpg": "/static/media/Thembiwe.7e931139cb61edecfaac.jpg",
     "static/media/Ian.jpg": "/static/media/Ian.947c12d49127ddc6dd27.jpg",
     "static/media/Fraser.jpg": "/static/media/Fraser.5374b810df6705b7e689.jpg",
     "static/media/David.jpg": "/static/media/David.3b6cfb7b87ebcb295ccc.jpg",
@@ -36,11 +34,11 @@
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/logo-facebook.svg": "/static/media/logo-facebook.84318d1245b58f3c15c8fe7a85568b74.svg",
     "static/media/mail-outline.svg": "/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
-    "main.0392b829.css.map": "/static/css/main.0392b829.css.map",
-    "main.065f66e8.js.map": "/static/js/main.065f66e8.js.map"
+    "main.7351e150.css.map": "/static/css/main.7351e150.css.map",
+    "main.f97d892e.js.map": "/static/js/main.f97d892e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0392b829.css",
-    "static/js/main.065f66e8.js"
+    "static/css/main.7351e150.css",
+    "static/js/main.f97d892e.js"
   ]
 }
