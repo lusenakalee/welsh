@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7351e150.css",
-    "main.js": "/static/js/main.f97d892e.js",
+    "main.css": "/static/css/main.d03a5a34.css",
+    "main.js": "/static/js/main.801c8d46.js",
     "static/media/miningrestrictions.jpg": "/static/media/miningrestrictions.5577604b0029b9a66c13.jpg",
     "static/media/location2.png": "/static/media/location2.d2b98ca9e7a38c778260.png",
     "static/media/location.png": "/static/media/location.64fd0bbcddd36bde7cff.png",
@@ -34,11 +34,11 @@
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/logo-facebook.svg": "/static/media/logo-facebook.84318d1245b58f3c15c8fe7a85568b74.svg",
     "static/media/mail-outline.svg": "/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
-    "main.7351e150.css.map": "/static/css/main.7351e150.css.map",
-    "main.f97d892e.js.map": "/static/js/main.f97d892e.js.map"
+    "main.d03a5a34.css.map": "/static/css/main.d03a5a34.css.map",
+    "main.801c8d46.js.map": "/static/js/main.801c8d46.js.map"
   },
   "entrypoints": [
-    "static/css/main.7351e150.css",
-    "static/js/main.f97d892e.js"
+    "static/css/main.d03a5a34.css",
+    "static/js/main.801c8d46.js"
   ]
 }
