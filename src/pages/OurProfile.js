@@ -2,6 +2,8 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import cwgLogo from "../assets/cwgLogo.png";
+import OurProfileBg from '../assets/OurProfileBg.jpeg'
+
 
 
 
@@ -14,13 +16,9 @@ export default function OurProfile() {
       <Navbar/> 
       <main className="profile-page">
         <section className="relative block" style={{ height: "500px" }}>
-          <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
-            style={{
-              backgroundImage:
-                "url('http://cwg.co.zw/wp-content/uploads/2018/12/cwg-our-profile-1.jpg')"
-            }}
-          >
+        <div
+            className="absolute top-0 w-full h-full bg-center bg-cover"  >
+              <img src= {OurProfileBg }/>
             <span
               id="blackOverlay"
               className="w-full h-full absolute opacity-50 bg-black"
