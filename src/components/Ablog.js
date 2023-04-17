@@ -72,18 +72,18 @@ const Ablog = () => {
                       <div className="flex">
                       <HashLink to="/#AttorneysSect" className="overflow-hidden">
                         <img
-                          className="rounded-full w-20 h-20"
+                          className="rounded-full w-16 h-16"
                           alt="event image"
                           src={diarra}
                         />
                       </HashLink>
                       <div className="leading-none">
 
-                      <p className="text-xl leading-none pl-5 font-bold text-gray-900 dark:text-white">
+                      <p className="text-xl mt-2 leading-none translate-y-5 pl-5 font-bold text-gray-900 dark:text-white">
                         {event.authorName}
                       </p>
 
-                      <p className="text-base leading-none pl-5 font-light text-gray-500 dark:text-gray-400">
+                      <p className="text-base leading-none  pl-5 font-light text-gray-500 dark:text-gray-400">
                         {event.authorTitle}
                       </p>
                       </div>
@@ -91,16 +91,16 @@ const Ablog = () => {
                       <div className="flex">
                       <div className="overflow-hidden">
                         <img
-                          className="rounded-full w-20 h-20"
+                          className="rounded-full w-16 h-16"
                           alt="event image"
                           src={Wellington}
                         />
                       </div>
                       <div>
-                      <p className="text-xl font-bold pl-5 text-gray-900 dark:text-white">
+                      <p className="text-xl translate-y-5 mt-2 font-bold pl-5 text-gray-900 dark:text-white">
                         {event.coAuthorName}
                       </p>
-                      <p className="text-base font-light pl-5 text-gray-500 dark:text-gray-400">
+                      <p className="text-base  font-light pl-5 text-gray-500 dark:text-gray-400">
                         {event.coAuthorTitle}
                       </p>
                       </div>
