@@ -94,12 +94,12 @@ export default function Footer() {
                   <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                     Downloads
                   </span>
-                  <ul className="list-unstyled">
+                  <ul className="list-unstyled">{/*
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                       href={tester} download={tester}>Abstract
                     </a>
-                    </li>
+                    </li>*/}
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                          href="">Terms & Conditions
@@ -121,17 +121,21 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © {new Date().getFullYear()}{" "}Coghlan, Welsh & Guest by{" "}
-                <a
-                  href=""
-                  className="text-gray-600 hover:text-gray-900"
-                >
-                  Leroy Lusenaka
-                </a>.
+                <div>
+                Copyright © {new Date().getFullYear()}{" "}Coghlan, Welsh & Guest {" "}</div>
+       
               </div>
             </div>
           </div>
         </div>
+        <div className="w-full text-right text-xs px-4">
+                <a
+                  href="mailto:lusenakalee@gmail.com;sharahwa@gmail.com"
+                  className="text-gray-600 hover:text-gray-900"
+                >
+                  Designed by  Shungu Harahwa & Leroy Lusenaka
+                </a>
+                </div>
       </footer>
     </>
   );

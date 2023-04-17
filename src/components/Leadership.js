@@ -172,7 +172,7 @@ export default function Leadership() {
         "General Civil Litigation, Labour law, Corporate and Commercial Law, Mining Law, Aviation law, Family Law, Trusts, and Estates Planning.",
     },
     {
-      name: "TAFADZWA R CHIKWAPE",
+      name: "Tafadzwa R Chikwape",
       role: "Estate Administrator",
       imageUrl: Trc,
       YOR: "2003",
@@ -213,7 +213,7 @@ export default function Leadership() {
                       <div className="text-left gap-x-6">
                         <Disclosure.Button>
                           <div className="flex">
-                            <img  className="h-16 w-20 rounded-full" src={leader.imageUrl} alt=""/>
+                            <img  className="h-14 w-14 rounded-full" src={leader.imageUrl} alt=""/>
                             <div className="pl-2 pt-2" >
                               <h3 className="text-base font-semibold text-left leading-7 tracking-tight text-gray-900">
                                 {leader.name}
