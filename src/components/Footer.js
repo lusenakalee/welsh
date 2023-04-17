@@ -4,6 +4,8 @@ import LnLogo from "../assets/logo-linkedin.svg"
 import callIcon from "../assets/call-outline.svg"
 import tester from "../assets/tester.pdf"
 import Map from "./Map"
+import { Link } from "react-router-dom"
+import {  MapPinIcon} from "@heroicons/react/24/outline";
 
 
 export default function Footer() {
@@ -78,19 +80,19 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="/">Home
-                      </a>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                         to="/">Home
+                      </Link>
                     </li>
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="/OurProfile">Our Profile
-                      </a>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                         to="/OurProfile">Our Profile
+                      </Link>
                     </li>
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="/Insights">Articles
-                      </a>
+                      <Link className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                         to="/Insights">Articles
+                      </Link>
                     </li>
 
 
@@ -124,6 +126,10 @@ export default function Footer() {
             </div>
           </div>
           <div className="py-2">
+            <div className="flex">
+            <div className="w-8"><MapPinIcon/></div>
+            <p>  Cecil House 2 Central Avenue (corner Second Street)Harare, Zimbabwe</p> 
+            </div>
               <Map />
               </div>
           <hr className="my-6 border-gray-400" />

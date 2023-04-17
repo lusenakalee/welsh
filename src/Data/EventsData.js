@@ -34,7 +34,7 @@ export const eventsData = [
     authorName: "William Diarra",
     authorTitle: "Associate",
     coAuthorName:"Wellington Magaya",
-    coAuthorTitle:"Senior Partner",
+    coAuthorTitle:"Partner",
     coAuthorImg: Wellington,
     date: "11 MARCH 2023",
     title: "New Government Restrictions on the Exportation of Base Minerals",
