@@ -3,6 +3,7 @@ import FbLogo from "../assets/logo-facebook.svg"
 import LnLogo from "../assets/logo-linkedin.svg"
 import callIcon from "../assets/call-outline.svg"
 import tester from "../assets/tester.pdf"
+import Map from "./Map"
 
 
 export default function Footer() {
@@ -30,7 +31,7 @@ export default function Footer() {
         </div>
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
-            <div className="w-full lg:w-6/12 px-4">
+            <div className="w-full py-4  lg:w-6/12 px-4">
               <h4 className="text-3xl font-semibold">
                 Let's keep in touch!
               </h4>
@@ -38,7 +39,7 @@ export default function Footer() {
                 Find us on any of these platforms.
               </h5>
               <div className="mt-6 ">
-                <a href="mailto:edkins@cwg.co.zw">
+                <a href="mailto:email@cwg.co.zw">
                 <button
                   className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
@@ -62,8 +63,13 @@ export default function Footer() {
                    <img src={callIcon} alt="callIcon" />
                 </button>
                 </a>
+                
               </div>
+
+
             </div>
+          
+           
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
@@ -78,12 +84,12 @@ export default function Footer() {
                     </li>
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="/OurProfile">About Us
+                         href="/OurProfile">Our Profile
                       </a>
                     </li>
                     <li>
                       <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                         href="/Insights">Insights
+                         href="/Insights">Articles
                       </a>
                     </li>
 
@@ -117,6 +123,9 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          <div className="py-2">
+              <Map />
+              </div>
           <hr className="my-6 border-gray-400" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">

@@ -81,6 +81,7 @@
 
 .swiper-pagination-bullet{
   transform: translateY(100%);
+  background-color: black;
 
 
   
