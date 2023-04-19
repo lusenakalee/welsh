@@ -14,7 +14,7 @@ function RssArticles() {
 
   const getArticles = async () => {
     try {
-      const res = await axios.get("http://localhost:4000/");
+      const res = await axios.get("https://welsh-rss.onrender.com");
       setArticles(res.data);
     } catch (error) {
       console.log(error);
