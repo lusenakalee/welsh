@@ -7,7 +7,8 @@ import { Articles } from "../components/Events";
 import ReactIdSwiper from "react-id-swiper";
 import Skyline from "../assets/skyline.jpg";
 import "./Home.css";
-import { HashLink, HashLink as Link } from "react-router-hash-link";
+import { HashLink} from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import SwiperTeams from "../components/SwiperTeams";
 import ExpertiseAccordion from "../components/ExpertiseAccordion";
 import {

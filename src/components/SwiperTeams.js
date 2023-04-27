@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
-
+import { Scrollbar, A11y, Autoplay } from "swiper";
+import SwiperCore, { Pagination, Navigation } from "swiper/core";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -28,16 +28,14 @@ import Taylor from "../assets/Taylor.jpg";
 export default function SwiperTeams() {
   const [show, setShow] = useState(false);
 
-
   return (
     <>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-        
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        navigation
-        autoplay={{ delay: 10000 }}
+        navigation={{clickable: true}}
+        autoplay={{ delay: 4000 }}
         className="mySwiper px-4 pt-5 text-xs"
       >
         <SwiperSlide>
@@ -80,8 +78,10 @@ export default function SwiperTeams() {
                   className="max-w-full rounded-lg shadow-lg"
                   src={Mazingi}
                 />
-                
-                <div className="pt-5"><p className="text-gray-700 text-base">Managing Partner</p></div>
+
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base">Managing Partner</p>
+                </div>
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
@@ -119,8 +119,9 @@ export default function SwiperTeams() {
                   className="max-w-full rounded-lg shadow-lg"
                   src={Moyo}
                 />
-                <div className="pt-5"><p className="text-gray-700 text-base"> Partner</p></div>
-                
+                <div className="pt-5">
+                  <p className="text-gray-700 text-base"> Partner</p>
+                </div>
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 text-base text-left">
                 <div className="md:pr-12">
@@ -396,7 +397,8 @@ export default function SwiperTeams() {
                   <p className="mt-4  leading-relaxed text-gray-600">
                     <b>Year of Registration:</b> 2021 <br />
                     <b>Qualifications:</b> LLB (UNISA) <br />
-                    <b>Status:</b> Admitted Legal Practitioner in Zimbabwe<br/>
+                    <b>Status:</b> Admitted Legal Practitioner in Zimbabwe
+                    <br />
                   </p>
                 </div>
               </div>
