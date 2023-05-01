@@ -22,11 +22,24 @@ import Moyo from "../assets/Moyo.jpg";
 import Samantha from "../assets/Samantha.jpg";
 import Lisa from "../assets/lisa.jpg";
 import Trc from "../assets/Trc.jpg";
-import Wellington from "../assets/Wellington.jpg";
+import Wellington from "../assets/Wellington.JPG";
 import Taylor from "../assets/Taylor.jpg";
 
 export default function SwiperTeams() {
   const [show, setShow] = useState(false);
+
+  const breakpoints = {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+  };
 
   return (
     <>
@@ -36,6 +49,8 @@ export default function SwiperTeams() {
         scrollbar={{ draggable: true }}
         navigation={{clickable: true}}
         autoplay={{ delay: 4000 }}
+        slidesPerGroup={breakpoints.slidesPerGroup}
+        slidesPerView={breakpoints.slidesPerView}
         className="mySwiper px-4 pt-5 text-xs"
       >
         <SwiperSlide>

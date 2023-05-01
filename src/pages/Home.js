@@ -1,15 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import cwgLogo from "../assets/cwgLogo.png";
-import medalIcon from "../assets/medal-outline.svg";
-import { Articles } from "../components/Events";
-import ReactIdSwiper from "react-id-swiper";
-import Skyline from "../assets/skyline.jpg";
 import "./Home.css";
-import { HashLink} from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
-import SwiperTeams from "../components/SwiperTeams";
 import ExpertiseAccordion from "../components/ExpertiseAccordion";
 import {
   BuildingLibraryIcon,
@@ -17,11 +12,9 @@ import {
   ScaleIcon,
 } from "@heroicons/react/24/outline";
 import Button from "../components/Button";
-
-import { eventsData } from "../Data/EventsData";
-import Leadership from "../components/Leadership";
 import HomeArticles from "../components/HomeArticles";
 import Locations from "../components/Locations";
+import CarouselTeams from "../components/CarouselTeams";
 
 export default function Landing() {
   return (
@@ -385,7 +378,7 @@ export default function Landing() {
           className="pb-20 pt-0 shadow-lg rounded-lg px-4"
         >
           <div>
-            <SwiperTeams />
+            <CarouselTeams/>
           </div>
         </section>
 

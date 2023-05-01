@@ -7,7 +7,7 @@ import Moyo from "../assets/Moyo.jpg";
 import Andrew from "../assets/Andrew.jpg";
 import Taylor from "../assets/Taylor.jpg";
 import David from "../assets/David.jpg";
-import Wellington from "../assets/Wellington.jpg";
+import Wellington from "../assets/Wellington.JPG";
 import Matlida from "../assets/Matlida.jpg";
 import Daniel from "../assets/Daniel.jpg";
 import dc from "../assets/dc.jpg";
@@ -27,8 +27,8 @@ export default function Leadership() {
   const leaders = [
     {
       name: "Fraser A. Edkins",
-      role: "Senior Partner",
-      imageUrl: Fraser,
+      position: "Senior Partner",
+      imageSrc: Fraser,
       YOR: "1980",
       Qualifications: " BL (Hons) LLB (Rhodesia)",
       Status:
@@ -37,8 +37,8 @@ export default function Leadership() {
     },
     {
       name: "Thembiwe C. Mazingi",
-      role: "Managing Partner",
-      imageUrl: Mazingi,
+      position: "Managing Partner",
+      imageSrc: Mazingi,
       YOR: "1982",
       Qualifications:
         "BL (Hons) LLB (Zim), MBA (UZ) Certificate in Advanced Taxation & VAT (UNISA), Certificate in Advanced Corporate & Securities Law (UNISA)",
@@ -49,8 +49,8 @@ export default function Leadership() {
     },
     {
       name: "Nokhuthula Moyo",
-      role: "Partner",
-      imageUrl: Moyo,
+      position: "Partner",
+      imageSrc: Moyo,
       YOR: "1994",
       Qualifications: "LLBS (Hons) (Zim)",
       Status:
@@ -61,8 +61,8 @@ export default function Leadership() {
 
     {
       name: "Andrew P. Lane-Mitchell",
-      role: "Partner",
-      imageUrl: Andrew,
+      position: "Partner",
+      imageSrc: Andrew,
       YOR: "1986",
       Qualifications: "BA (Cape), BA LLB (Cape)",
       Status: "Admitted as Legal Practitioner in Zimbabwe",
@@ -71,8 +71,8 @@ export default function Leadership() {
     },
     {
       name: "Margaret L. Taylor",
-      role: "Partner",
-      imageUrl: Taylor,
+      position: "Partner",
+      imageSrc: Taylor,
       YOR: "2001",
       Qualifications: "B Proc (SA)",
       Status:
@@ -81,8 +81,8 @@ export default function Leadership() {
     },
     {
       name: "David C. Dhumbura",
-      role: "Partner",
-      imageUrl: David,
+      position: "Partner",
+      imageSrc: David,
       YOR: "2003",
       Qualifications: "LLBS (Hons) (Zim)",
       Status:
@@ -92,8 +92,8 @@ export default function Leadership() {
     },
     {
       name: "Wellington Magaya",
-      role: "Partner",
-      imageUrl: Wellington,
+      position: "Partner",
+      imageSrc: Wellington,
       YOR: "2008",
       Qualifications: "LLBS (Hons) (Zim), MBA (Zim)",
       Status:
@@ -103,8 +103,8 @@ export default function Leadership() {
     },
     {
       name: "Nyadzisai M. Chikwene",
-      role: "Partner",
-      imageUrl: Matlida,
+      position: "Partner",
+      imageSrc: Matlida,
       Qualifications: "LLB (UNISA)",
       Status:
         "Admitted as a Legal Practitioner, Notary Public, and Conveyancer in Zimbabwe",
@@ -113,8 +113,8 @@ export default function Leadership() {
     },
     {
       name: "Daniel Matawu",
-      role: "Partner",
-      imageUrl: Daniel,
+      position: "Partner",
+      imageSrc: Daniel,
       YOR: "2016",
       Qualifications: "LLB (UL) LLM (UCT)",
       Status: "Admitted Legal Practitioner",
@@ -123,8 +123,8 @@ export default function Leadership() {
     },
     {
       name: "Dillon Chemhere",
-      role: "Associate",
-      imageUrl: dc,
+      position: "Associate",
+      imageSrc: dc,
       YOR: "2021",
       Qualifications: "LLB (UNISA)",
       Status: "Admitted Legal Practitioner",
@@ -132,8 +132,8 @@ export default function Leadership() {
     },
     {
       name: "Ennocent T Chidawanyika",
-      role: "Associate",
-      imageUrl: et,
+      position: "Associate",
+      imageSrc: et,
       YOR: "2020",
       Qualifications: "LLB (UNISA) LLM (UCT)",
       Status:
@@ -142,8 +142,8 @@ export default function Leadership() {
     },
     {
       name: "Lisa B. Zvinavashe",
-      role: "Associate",
-      imageUrl: Lisa,
+      position: "Associate",
+      imageSrc: Lisa,
       YOR: "2021",
       Qualifications: "LLB (UNISA)",
       Status: "Admitted Legal Practitioner in Zimbabwe",
@@ -152,8 +152,8 @@ export default function Leadership() {
     },
     {
       name: "Samantha Mbauya",
-      role: "Associate",
-      imageUrl: Samantha,
+      position: "Associate",
+      imageSrc: Samantha,
       YOR: "2022",
       Qualifications: "LLBS (Hons) (Zim)",
       Status:
@@ -162,8 +162,8 @@ export default function Leadership() {
     },
     {
       name: "William F.M. Diarra",
-      role: "Associate",
-      imageUrl: dia,
+      position: "Associate",
+      imageSrc: dia,
       YOR: "2022",
       Qualifications: "LLB (UCT)",
       Status:
@@ -173,8 +173,8 @@ export default function Leadership() {
     },
     {
       name: "Tafadzwa R Chikwape",
-      role: "Estate Administrator",
-      imageUrl: Trc,
+      position: "Estate Administrator",
+      imageSrc: Trc,
       YOR: "2003",
       Qualifications: "",
       Status:
@@ -198,7 +198,7 @@ export default function Leadership() {
             </p>
           </div>
           <ul
-            role="list"
+            position="list"
             className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
           >
             {leaders.map((leader, index) => (
@@ -213,13 +213,13 @@ export default function Leadership() {
                       <div className="text-left gap-x-6">
                         <Disclosure.Button>
                           <div className="flex">
-                            <img  className="h-14 w-14 rounded-full" src={leader.imageUrl} alt=""/>
+                            <img  className="h-14 w-14 rounded-full" src={leader.imageSrc} alt=""/>
                             <div className="pl-2 pt-2" >
                               <h3 className="text-base font-semibold text-left leading-7 tracking-tight text-gray-900">
                                 {leader.name}
                               </h3>
                               <p className="text-sm font-semibold text-left leading-6 text-indigo-600">
-                                {leader.role}
+                                {leader.position}
                               </p>
                         
                             </div>

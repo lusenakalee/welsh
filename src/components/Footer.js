@@ -1,8 +1,6 @@
 import mailIcon from "../assets/mail-outline.svg";
-import FbLogo from "../assets/logo-facebook.svg";
 import LnLogo from "../assets/logo-linkedin.svg";
 import callIcon from "../assets/call-outline.svg";
-import tester from "../assets/tester.pdf";
 import Map from "./Map";
 import { Link } from "react-router-dom";
 import { MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
@@ -46,9 +44,10 @@ export default function Footer() {
                     <img src={mailIcon} alt="mail icon" />
                   </button>
                 </a>
-                <a
-                  href="https://www.linkedin.com/company/coghlan-welsh-and-guest/"
+                <Link
+                  to="https://www.linkedin.com/company/coghlan-welsh-and-guest/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button
                     className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -56,7 +55,7 @@ export default function Footer() {
                   >
                     <img src={LnLogo} alt="LnLogo" />
                   </button>
-                </a>
+                </Link>
                 <a href="tel:+263242794930">
                   <button
                     className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -113,20 +112,20 @@ export default function Footer() {
                     </a>
                     </li>*/}
                     <li>
-                      <a
+                      <Link
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href=""
+                        to=""
                       >
                         Terms & Conditions
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href=""
+                        to=""
                       >
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

@@ -18,7 +18,7 @@ export default function OurProfile() {
         <section className="relative block" style={{ height: "500px" }}>
         <div
             className="absolute top-0 w-full h-full bg-center bg-cover"  >
-              <img src= {OurProfileBg }/>
+              <img src= {OurProfileBg } alt="ProfileBg"/>
             <span
               id="blackOverlay"
               className="w-full h-full absolute opacity-50 bg-black"

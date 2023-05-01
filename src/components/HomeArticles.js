@@ -3,28 +3,28 @@ import { eventsData } from "../Data/EventsData";
 import './HomeArticles.css'
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Scrollbar, A11y, Autoplay } from "swiper";
-import SwiperCore, { Pagination, Navigation } from "swiper/core";
+import { Scrollbar, A11y, Autoplay ,Pagination, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Link } from 'react-router-dom';
 
 
-SwiperCore.use([Pagination, Navigation]);
 
 
 function HomeArticles() {
-    const breakpoints = {
-        // when window width is >= 320px
-        320: {
-          slidesPerView: 1,
-        },
-        // when window width is >= 768px
-        768: {
-          slidesPerView: 3,
-        },
-      };
+  const breakpoints = {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+  };
 
   return (
     <div>
@@ -33,6 +33,8 @@ function HomeArticles() {
 <Swiper
                       className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
                       breakpoints={breakpoints}
+                      slidesPerGroup={breakpoints.slidesPerGroup}
+                      slidesPerView={breakpoints.slidesPerView}
                       modules={[
                         Navigation,
                         Pagination,

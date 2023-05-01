@@ -1,0 +1,25 @@
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #fff;
+  color: #000;
+}
+.swiper-button-prev:,
+.swiper-button-next:{
+  color: #000;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 10%;
+  transform: translateY(150%);
+ 
+  border-radius: 0%;
+  background-color: transparent;
+  color: black;
+  border: px solid #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding:2px;
+  text-align: center;
+}

@@ -5,7 +5,6 @@ import "./App.css";
 import ProfilePage from "./pages/ProfilePage";
 import OurProfile from "./pages/OurProfile";
 
-import Archives from "./components/Archives";
 import Blog from "./pages/Blog";
 import OurHistory from "./pages/OurHistory"
 import EventsPage from "./pages/EventsPage";
@@ -29,7 +28,6 @@ function App() {
         <Route path="OurHistory" element={<OurHistory />} />
         <Route path="Rssarticles" element={<RssArticles/>} />
        
-        <Route path="Archives" element={<Archives />} />
         <Route path="Blog" element={<Blog />} />  
         <Route path="Feed" element={<Feed />} />       
       </Routes>

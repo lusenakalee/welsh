@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 import { Breadcrumbs } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import "./Ablog.css";
-import Wellington from '../assets/Wellington.jpg'
+import Wellington from '../assets/Wellington.JPG'
 import diarra from '../assets/dia.jpg'
 import { HashLink } from "react-router-hash-link";
 
@@ -36,7 +36,7 @@ const Ablog = () => {
           <Link smooth to="/Events" className="opacity-60">
             Events
           </Link>
-          <a>Article</a>
+          <Link>Article</Link>
         </Breadcrumbs>
       </div>
 
@@ -61,7 +61,7 @@ const Ablog = () => {
                     <div>
                       <img
                         className="rounded-lg"
-                        alt="event image"
+                        alt="event"
                         src={event.eventImg}
                       />
                     </div>
@@ -74,7 +74,7 @@ const Ablog = () => {
                       <div className="overflow-hidden">
                         <img
                           className="rounded-full w-16 h-16"
-                          alt="event image"
+                          alt="event"
                           src={Wellington}
                         />
                       </div>
@@ -92,7 +92,7 @@ const Ablog = () => {
                       <HashLink to="/#AttorneysSect" className="overflow-hidden">
                         <img
                           className="rounded-full w-16 h-16"
-                          alt="event image"
+                          alt="event"
                           src={diarra}
                         />
                       </HashLink>
