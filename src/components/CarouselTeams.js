@@ -195,11 +195,12 @@ const team = [
   {
     id: 15,
     name: "Mduduzi A. Ruwitah",
-    href: "#",
-    imageSrc: Mduduzi,
-    imageAlt: "Mduduzi A. Ruwitah",
-    price: "$35",
     position: "Associate",
+    imageSrc: Mduduzi,
+    YOR: "2023",
+    Qualifications: "LLB LLM LLM (UCT)",
+    Status:"Admitted Legal Practitioner in Zimbabwe",
+    MainPracticeAreas: "Dispute Resolution, Criminal Law, Labour and Employment Law,Environmental Law, Media Law, Human Rights, General Practice",
   },
   {
     id: 16,
