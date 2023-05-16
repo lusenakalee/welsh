@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb547585.css",
-    "main.js": "/static/js/main.0e7f0b3a.js",
+    "main.css": "/static/css/main.abbaccad.css",
+    "main.js": "/static/js/main.2395b8c5.js",
     "static/media/miningrestrictions.jpg": "/static/media/miningrestrictions.5577604b0029b9a66c13.jpg",
     "static/media/Daniel.jpg": "/static/media/Daniel.0379e825d4b6d94886c7.jpg",
     "static/media/lisa.jpg": "/static/media/lisa.67fcbb9a052a4a9ccd15.jpg",
@@ -15,7 +15,7 @@
     "static/media/et.jpg": "/static/media/et.3429da019d3c0283dc36.jpg",
     "static/media/dia.jpg": "/static/media/dia.be85112006a9f63fbbd6.jpg",
     "static/media/rm.jpeg": "/static/media/rm.15199c3aaf0b3d70a8f7.jpeg",
-    "static/media/Wellington.JPG": "/static/media/Wellington.e0aa37631377e5aad7ed.JPG",
+    "static/media/Wellington.jpg": "/static/media/Wellington.e0aa37631377e5aad7ed.jpg",
     "static/media/image3.jpg": "/static/media/image3.2a73535ebc16d55ef9c8.jpg",
     "static/media/image4.jpg": "/static/media/image4.711bfceb705ebb1c646b.jpg",
     "static/media/image1.jpg": "/static/media/image1.bad22bcb342382c10c4a.jpg",
@@ -33,11 +33,11 @@
     "static/media/call-outline.svg": "/static/media/call-outline.0f00460152e4a645e39332dd668e2e7d.svg",
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/mail-outline.svg": "/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
-    "main.fb547585.css.map": "/static/css/main.fb547585.css.map",
-    "main.0e7f0b3a.js.map": "/static/js/main.0e7f0b3a.js.map"
+    "main.abbaccad.css.map": "/static/css/main.abbaccad.css.map",
+    "main.2395b8c5.js.map": "/static/js/main.2395b8c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb547585.css",
-    "static/js/main.0e7f0b3a.js"
+    "static/css/main.abbaccad.css",
+    "static/js/main.2395b8c5.js"
   ]
 }

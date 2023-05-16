@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom";
 import { Breadcrumbs } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import "./Ablog.css";
-import Wellington from '../assets/Wellington.JPG'
+import Wellington from '../assets/Wellington.jpg'
 import diarra from '../assets/dia.jpg'
 import { HashLink } from "react-router-hash-link";
 

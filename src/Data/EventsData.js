@@ -12,7 +12,7 @@ import Moyo from '../assets/Moyo.jpg'
 import rm from '../assets/rm.jpeg'
 import Taylor from '../assets/Taylor.jpg'
 import Trc from '../assets/Trc.jpg'
-import Wellington from '../assets/Wellington.JPG'
+import Wellington from '../assets/Wellington.jpg'
 import miningrestrictions from '../assets/miningrestrictions.jpg'
 import image1 from '../assets/image1.jpg'
 import image2 from '../assets/image2.jpg'
@@ -28,7 +28,7 @@ import TheLaw from './Stories/TheLaw'
 export const eventsData = [
   {
     
-    id: '5',
+    id: '1',
     eventImg: miningrestrictions,
     authorImg: dia,
     authorName: "William Diarra",
@@ -47,72 +47,7 @@ export const eventsData = [
     storyParagraph5: "This is P3",
     storyParagraph6: "This is P3",
   },
-  {
-    
-      id: '4',
-      eventImg: image2,
-      authorImg: dia,
-      authorName: "William Diarra",
-      authorTitle: "Associate",
-      date: "12 November, 2018",
-      title: "The Reserve Bank of Zimbabwe Forex Priority List",
-      details:
-        "In an article on the 13th of April 2018, the Zimbabwe Independent reported the Confederation of Zimbabwe Industries stating that Zimbabwe…",
-      linkage: "Read more>>",
-      storyParagraph1: "",
-      storyParagraph2: "",
-      storyParagraph3: "",
-      refesences: "",
-    },
-    {
-    id: '3',
-    eventImg: image1,
-    authorImg: Wellington,
-    authorName: "Magaya",
-    authorTitle: "Partner",
-    date: "13 NOVEMBER, 2018",
-    title: "Registration of securities over movable assets",
-    details:
-      "In a bid to increase access to credit for SMEs and other small businesses, Zimbabwe has passed the Movable Property Security Interests Act…",
-    linkage: "Read more>>",
-    storyParagraph1: "",
-    storyParagraph2: "",
-    storyParagraph3: "",
-    refesences: "",
-  },
 
-  {
-    id: '2',
-    eventImg: image3,
-    authorImg: "",
-    authorName: "",
-    authorTitle: "",
-    date: "12 October, 2018",
-    title: "Renewable energy in Zimbabwe",
-    details:
-      "Given the plethora of press reports of licences given to Independent Power Producers (IPPs) in this country in the last two years, many investors…",
-    linkage: "Read more>>",
-    storyParagraph1: "",
-    storyParagraph2: "",
-    storyParagraph3: "",
-    refesences: "",
-  },
-  {
-    id: '1',
-    eventImg: image4,
-    authorImg: "",
-    authorName: "",
-    authorTitle: "",
-    date: "12 NOVEMBER, 2020",
-    title: "Regulation of Cryptocurrencies in Zimbabwe",
-    details:
-      "Whilst the Zimbabwean Government has not said anything at all about the legality of cryptocurrencies, the Reserve Bank of Zimbabwe has…",
-    linkage: "Read more>>",
-    storyParagraph1: "",
-    storyParagraph2: "",
-    storyParagraph3: "",
-    refesences: "",
-  },
 ];
 
 
