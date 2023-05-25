@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.abbaccad.css",
-    "main.js": "/static/js/main.2395b8c5.js",
+    "main.css": "/static/css/main.3bd9eafc.css",
+    "main.js": "/static/js/main.e42932c6.js",
     "static/media/miningrestrictions.jpg": "/static/media/miningrestrictions.5577604b0029b9a66c13.jpg",
     "static/media/Daniel.jpg": "/static/media/Daniel.0379e825d4b6d94886c7.jpg",
     "static/media/lisa.jpg": "/static/media/lisa.67fcbb9a052a4a9ccd15.jpg",
-    "static/media/location2.png": "/static/media/location2.d2b98ca9e7a38c778260.png",
-    "static/media/location.png": "/static/media/location.64fd0bbcddd36bde7cff.png",
-    "static/media/location3.png": "/static/media/location3.42b891652bb6bb3ac26b.png",
-    "static/media/Mduduzi.jpg": "/static/media/Mduduzi.38ab9fa2ef2754c5a094.jpg",
+    "static/media/grid3.png": "/static/media/grid3.251afc103b892219ad07.png",
+    "static/media/grid1.png": "/static/media/grid1.fb62d10e1cf5c75b30cd.png",
     "static/media/Samantha.jpg": "/static/media/Samantha.b203c61469a8ba47d516.jpg",
+    "static/media/grid2.png": "/static/media/grid2.df4ec26873a25a645aae.png",
     "static/media/dc.jpg": "/static/media/dc.368b28ad107e3e6ce66f.jpg",
     "static/media/OurProfileBg.jpeg": "/static/media/OurProfileBg.74152a9efb0a2d6ea863.jpeg",
+    "static/media/grid4.png": "/static/media/grid4.7bbfd49c6e71c1d15edb.png",
     "static/media/et.jpg": "/static/media/et.3429da019d3c0283dc36.jpg",
+    "static/media/Mduduzi.jpg": "/static/media/Mduduzi.81bc0ea9ec3d25b4fa1a.jpg",
     "static/media/dia.jpg": "/static/media/dia.be85112006a9f63fbbd6.jpg",
     "static/media/rm.jpeg": "/static/media/rm.15199c3aaf0b3d70a8f7.jpeg",
     "static/media/Wellington.jpg": "/static/media/Wellington.e0aa37631377e5aad7ed.jpg",
@@ -33,11 +34,11 @@
     "static/media/call-outline.svg": "/static/media/call-outline.0f00460152e4a645e39332dd668e2e7d.svg",
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/mail-outline.svg": "/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
-    "main.abbaccad.css.map": "/static/css/main.abbaccad.css.map",
-    "main.2395b8c5.js.map": "/static/js/main.2395b8c5.js.map"
+    "main.3bd9eafc.css.map": "/static/css/main.3bd9eafc.css.map",
+    "main.e42932c6.js.map": "/static/js/main.e42932c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.abbaccad.css",
-    "static/js/main.2395b8c5.js"
+    "static/css/main.3bd9eafc.css",
+    "static/js/main.e42932c6.js"
   ]
 }
