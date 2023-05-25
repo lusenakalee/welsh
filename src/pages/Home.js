@@ -13,8 +13,8 @@ import {
 } from "@heroicons/react/24/outline";
 import Button from "../components/Button";
 import HomeArticles from "../components/HomeArticles";
-import Locations from "../components/Locations";
 import CarouselTeams from "../components/CarouselTeams";
+import LocationGrid from "../components/LocationGrid";
 
 export default function Landing() {
   return (
@@ -197,6 +197,8 @@ export default function Landing() {
             </div>
           </div>
         </section>
+        <section><LocationGrid/></section>
+        {/*
 
         <section className="relative py-20">
           <div
@@ -355,7 +357,7 @@ export default function Landing() {
               </div>
             </div>
           </div>
-        </section>
+          </section>*/}
 
         <section className="pt-20 pb-0.5" id="AttorneysSect">
           <div className="container mx-auto px-4">

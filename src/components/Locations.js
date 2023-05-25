@@ -26,6 +26,7 @@ function Locations() {
       autoplay={{ delay: 2000 }}
       className="mySwiper px-4 pt-5 text-xs"
     >
+  
       <SwiperSlide>
         <img
           alt="..."
