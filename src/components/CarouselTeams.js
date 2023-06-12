@@ -63,7 +63,7 @@ const team = [
   },
   {
     id: 3,
-    name: "Nokhuthula Moyo",
+    name: "Nokuthula Moyo",
     position: "Partner",
     imageSrc: Moyo,
     YOR: "1994",
@@ -242,10 +242,9 @@ const team = [
     name: "William F.M. Diarra",
     position: "Associate",
     imageSrc: dia,
-    YOR: "2022",
+   
     Qualifications: "LLB (UCT)",
-    Status:
-      "Admitted Legal Practitioner, Notary Public, and Conveyancer in Zimbabwe",
+
     MainPracticeAreas:
       "General Civil Litigation, Labour law, Corporate and Commercial Law, Mining Law, Aviation law, Family Law, Trusts, and Estates Planning.",
     description: `William joined the Litigation and Commercial law Departments of the firm in June 2021. He has a keen interest in corporate and commercial law and has recently extended his practice areas to mining and aviation .`,
