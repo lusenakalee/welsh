@@ -1,7 +1,6 @@
 import React from "react"
-import Grid1 from "../assets/grid1.png"
+import GridSide from "../assets/gridside.png"
 import Grid2 from "../assets/grid2.png"
-
 import Grid3 from "../assets/grid3.png"
 import Grid4 from "../assets/grid4.png"
 
@@ -44,7 +43,7 @@ const features = [
               className="rounded-lg bg-gray-100"
             />
             <img
-              src={Grid1}
+              src={GridSide}
               alt="Top down view of walnut card tray with embedded magnets and card groove."
               className="rounded-lg bg-gray-100"
             />
