@@ -155,10 +155,10 @@ const team = [
     name: "Daniel Matawu",
     position: "Partner",
     imageSrc: Daniel,
-    YOR: "",
-    Qualifications: "",
-    Status: "",
-    MainPracticeAreas: "",
+    YOR: "2016",
+    Qualifications: "LLB (UL) LLM (UCT)",
+    Status: "Admitted Legal Practitioner",
+    MainPracticeAreas: "Commercial Law, Civil Litigation, Mining Law, Labour Law",
     description: `Daniel joined the firm in 2016 and steadily rose through the ranks into Partnership in 2022.
     During Daniel’s tenure with the firm, he has had the opportunity to oversee high value commercial litigation some of which involving local and international corporates.
     Daniel also has vast experience in employment law where he has had advised on issues to do with restructuring and retrenchment just to mention a few. From a compliance perspective, Daniel has worked in house for a multinational corporation. Through the in-house experience he has managed to “sharpen his eye” and be better placed to identify risk and to deal with all related compliance issues.
