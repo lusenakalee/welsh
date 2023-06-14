@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6be755fe.css",
-    "main.js": "/static/js/main.a352781f.js",
+    "main.css": "/static/css/main.42e2ee0b.css",
+    "main.js": "/static/js/main.0cb614f7.js",
     "static/media/miningrestrictions.jpg": "/static/media/miningrestrictions.5577604b0029b9a66c13.jpg",
     "static/media/Daniel.jpg": "/static/media/Daniel.0379e825d4b6d94886c7.jpg",
     "static/media/lisa.jpg": "/static/media/lisa.67fcbb9a052a4a9ccd15.jpg",
@@ -34,11 +34,11 @@
     "static/media/call-outline.svg": "/static/media/call-outline.0f00460152e4a645e39332dd668e2e7d.svg",
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/mail-outline.svg": "/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
-    "main.6be755fe.css.map": "/static/css/main.6be755fe.css.map",
-    "main.a352781f.js.map": "/static/js/main.a352781f.js.map"
+    "main.42e2ee0b.css.map": "/static/css/main.42e2ee0b.css.map",
+    "main.0cb614f7.js.map": "/static/js/main.0cb614f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6be755fe.css",
-    "static/js/main.a352781f.js"
+    "static/css/main.42e2ee0b.css",
+    "static/js/main.0cb614f7.js"
   ]
 }
