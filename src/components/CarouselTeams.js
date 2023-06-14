@@ -56,7 +56,7 @@ const team = [
     Qualifications:
       "BL (Hons) LLB (Zim), MBA (UZ) Certificate in Advanced Taxation & VAT (UNISA), Certificate in Advanced Corporate & Securities Law (UNISA)",
     Status:
-      "Admitted Legal Practitioner, Notary Public &amp; Conveyancer in Zimbabwe",
+      "Admitted Legal Practitioner, Notary Public & Conveyancer in Zimbabwe",
     MainPracticeAreas:
       "Conveyancing, Notarial Practice, Intellectual Property, Securities,Taxation, Trusts, Commercial and Corporate Law and Energy (oil, gas and electricity)",
     description: `Thembiwe leads the intellectual property division of the firm and has many years of experience in conveyancing and property law. Thembiwe sits on various boards including Ariston Holdings Limited, NICOZ Diamond Insurance Limited (where she is Deputy Chairperson of the Board), African Century Limited and the Innscor Limited Group. Thembiwe’s past directorships include Zimbabwe Allied Banking Group Limited, Fidelity Asset Management and Zimbabwe Electricity Supplies Authority and National Tyre Services. Thembiwe is an avid member of the International Bar Association in which she is a member of the African Regional, Mergers and Acquisitions and Practise Management Forums and Committees.`,
@@ -181,37 +181,27 @@ const team = [
     position: "Associate",
     imageSrc: et,
     YOR: "2020",
-    Qualifications: `LLB (UNISA) LLM (UCT),LLB Cum laude (UNISA)
-    • LLM (Law of Mineral and Petroleum Extract and Use) – UCT
-    • PhD Mining Law candidate- UCT
-    • Bsc (Hons) Economics – UZ
-    • MSc Economics – UZ
-    • MBA (Banking & Finance) – NUST
-    • C.A.I.B. (SA)
-    • A.I.O.B.(ZIM"`,
+    Qualifications: `
+     LLB Cum laude (UNISA), 
+     LLM (Law of Mineral and Petroleum Extract and Use) – UCT, 
+     PhD Mining Law candidate- UCT, 
+     Bsc Economics – UZ,
+     MSc Economics – UZ,
+     MBA (Banking & Finance) – NUST,
+     C.A.I.B. (SA),
+     A.I.O.B.(ZIM)`,
     Status:
       "Admitted Legal Practitioner, Notary Public, and Conveyancer in Zimbabwe",
-    MainPracticeAreas: "Corporate and Commercial Law",
-    description: `Ennocent Chidawanyika is Coghlan, Welsh & Guest’s Mining Law Expert and
-    Commercial & Corporate lawyer making sure of seamless delivery of effective
-    solutions for clients across boundaries.
-    His expertise covers the cycle of mining – from exploration, mining and beneficia-
-    tion to downscaling and closure. His experience ranges from start-up exploration
-    projects to well established mining projects, and he acts for a wide range of
-    mining companies in all mineral commodity sectors, including the base and
-    precious metals, coal, rare earths, sand and diamonds sectors.
-    Ennocent’s expertise includes advising on mining aspects of equity and asset
-    acquisitions, disposals and corporate restructuring, as well as on distressed
-    mining assets and on royalties in the mining sector. His experience further
-    includes all aspects of regulatory work in the mining and petroleum (upstream)
-    industries, for senior, mid-tier and junior companies, as well as for financial
-    institutions with regard to banking and resource finance projects.
-    Ennocent has done mining title and transactional work in Southern Africa. He has
-    assisted his clients with cratiing contract mining agreements, mining partnership
-    agreements, mine developer and operator agreements, contract mining
-    proposals, mining tributes and mining syndicate agreements. He has advised on
-    joint ventures in Zimbabwe and Namibia in addition to advising on the mineral
-    regulatory framework.`,
+    MainPracticeAreas: "Corporate & Commercial Lawyer| Mining Law Expert| Chartered Banker\Economist",
+    description: `
+    Ennocent Chidawanyika is Coghlan, Welsh & Guest’s Commercial and Corporate lawyer making sure of seamless delivery of effective solutions for clients across boundaries.
+His expertise covers the cycle of mining – from exploration, mining, and beneficiation to downscaling and closure. His experience ranges from start-up exploration projects to well-established mining projects, and he acts for a wide range of mining companies in all mineral commodity sectors, including the base and precious metals, coal, rare earths, sand and diamonds sectors.
+Ennocent’s expertise includes advising on mining aspects of equity and asset acquisitions, disposals and corporate restructuring, as well as on distressed mining assets and on royalties in the mining sector. His experience further includes all aspects of regulatory work in the mining and petroleum (upstream) industries, for senior, mid-tier and junior companies, as well as for financial institutions regarding banking and resource-finance projects.
+Ennocent has done mining title and transactional work in Southern Africa. He has also advised on joint ventures in Zimbabwe and Namibia in addition to advising on the mineral regulatory framework.
+Before joining the legal field, Ennocent was prominent Senior Corporate Banking Executive who worked for International and local banks and consulted for a regional bank.
+Ennocent is regularly invited by a regional University to lecture and present papers in the field of mining law and is very widely read. He is recognised as a leading/recommended lawyer by various natural resources institutes.
+He is a full member of the International Bar Association (IBA) with committee membership in Mining Law, Corporate and M & A Law, and Banking Law.
+Ennocent was inducted into the Golden Key International Honour Society, which is the world’s largest collegiate honor society for graduates.`,
   },
   {
     id: 12,
