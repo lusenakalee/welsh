@@ -19,6 +19,8 @@ import image2 from '../assets/image2.jpg'
 import image3 from '../assets/image3.jpg'
 import image4 from '../assets/image4.jpg'
 import TheLaw from './Stories/TheLaw'
+import Delays from './Stories/Delays'
+import HighCourt from "../assets/HighCourt.jpg"
 
 
 
@@ -29,6 +31,28 @@ export const eventsData = [
   {
     
     id: '1',
+    eventImg: HighCourt,
+    authorImg: "",
+    authorName: "",
+    authorTitle: "",
+    coAuthorName:"",
+    coAuthorTitle:"",
+    coAuthorImg: "",
+    date: "24 JUNE 2023",
+    title: "POSSIBLE DELAYS IN HIGH COURT PROCEEDINGS",
+    details:  "There may be delays in the set down of matters in the High Court in the last half of this year due to urgent litigation associated with elections.",
+    storyParagraph1: <Delays/>,
+    storyParagraph2: "This is p2",
+    storyParagraph3: "This is P3",
+    refesences: "",
+    storyParagraph4: "This is P3",
+    storyParagraph5: "This is P3",
+    storyParagraph6: "This is P3",
+  },
+
+  {
+    
+    id: '2',
     eventImg: miningrestrictions,
     authorImg: dia,
     authorName: "William Diarra",

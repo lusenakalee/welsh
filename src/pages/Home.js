@@ -15,11 +15,13 @@ import Button from "../components/Button";
 import HomeArticles from "../components/HomeArticles";
 import CarouselTeams from "../components/CarouselTeams";
 import LocationGrid from "../components/LocationGrid";
+import Banner from "../components/banner";
 
 export default function Landing() {
   return (
     <>
       <main>
+        <Banner/>
         <Navbar />
         <div
           className="relative pt-16 pb-32 flex content-center items-center justify-center"

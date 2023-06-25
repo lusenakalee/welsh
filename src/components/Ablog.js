@@ -71,13 +71,15 @@ const Ablog = () => {
                       </p>
                       
                       <div className="flex">
-                      <div className="overflow-hidden">
-                        <img
-                          className="rounded-full w-16 h-16"
-                          alt="event"
-                          src={Wellington}
-                        />
-                      </div>
+                      {event.authorImg && (
+                          <div className="overflow-hidden">
+                            <img
+                              className="rounded-full w-16 h-16"
+                              alt="event"
+                              src={event.authorImg}
+                            />
+                          </div>
+                        )}
                       <div>
                       <p className="text-xl translate-y-5 mt-2 font-bold pl-5 text-gray-900 dark:text-white">
                         {event.coAuthorName}
@@ -89,13 +91,15 @@ const Ablog = () => {
                       </div>
 
                       <div className="flex">
-                      <HashLink to="/#AttorneysSect" className="overflow-hidden">
-                        <img
-                          className="rounded-full w-16 h-16"
-                          alt="event"
-                          src={diarra}
-                        />
-                      </HashLink>
+                      {event.coAuthorImg && (
+                          <HashLink to="/#AttorneysSect" className="overflow-hidden">
+                            <img
+                              className="rounded-full w-16 h-16"
+                              alt="event"
+                              src={event.coAuthorImg}
+                            />
+                          </HashLink>
+                        )}
                       <div className="leading-none">
 
                       <p className="text-xl mt-2 leading-none translate-y-5 pl-5 font-bold text-gray-900 dark:text-white">
