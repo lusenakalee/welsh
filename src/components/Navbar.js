@@ -3,7 +3,7 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import cwgLogo from "../assets/cwgLogo.png";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const navigation = [
   { name: "Our Team", href: "/#AttorneysSect", current: true },
@@ -15,6 +15,8 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+  const location = useLocation();
+
   return (
     <Disclosure as="nav" className="bg-black">
       {({ open }) => (
@@ -55,7 +57,7 @@ export default function Navbar() {
                         smooth
                         to={item.href}
                         className={classNames(
-                          item.current
+                          item.current === location.pathname
                             ? "bg-gray-900 text-white"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white",
                           "rounded-md px-3 py-2 text-sm font-medium"
@@ -65,10 +67,18 @@ export default function Navbar() {
                         {item.name}
                       </HashLink>
                     ))}
-                    <Link key='insights'
+                    <Link
+                      key="insights"
                       to="/Insights"
-                      className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"                     
-                    >Articles</Link>
+                      className={classNames(
+                        location.pathname === "/Insights"
+                          ? "bg-gray-900 text-white"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "rounded-md px-3 py-2 text-sm font-medium"
+                      )}
+                    >
+                      Articles
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -92,15 +102,16 @@ export default function Navbar() {
                   aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
-                  
                 </Disclosure.Button>
               ))}
               <div>
-              <Link key='insights'
-                      to="/Insights"
-                      className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"                     
-                    >Articles</Link>
-
+                <Link
+                  key="insights"
+                  to="/Insights"
+                  className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
+                >
+                  Articles
+                </Link>
               </div>
             </div>
           </Disclosure.Panel>
