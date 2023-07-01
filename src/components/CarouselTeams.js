@@ -165,6 +165,34 @@ const team = [
     In his spare time, he enjoys watching and playing sport. His enjoyment of sport has driven him to work towards the establishment of the firm’s sports law department.`,
   },
   {
+    id: 11,
+    name: "Ennocent T Chidawanyika",
+    position: "Associate",
+    imageSrc: et,
+    YOR: "2020",
+    Qualifications: `
+    LLB Cum laude (UNISA), 
+    LLM (Law of Mineral and Petroleum Extract and Use) – UCT, 
+    PhD Mining Law candidate- UCT, 
+    Bsc Economics – UZ,
+    MSc Economics – UZ,
+    MBA (Banking & Finance) – NUST,
+    C.A.I.B. (SA),
+    A.I.O.B.(ZIM)`,
+    Status:
+    "Admitted Legal Practitioner, Notary Public, and Conveyancer in Zimbabwe",
+    MainPracticeAreas: "Corporate & Commercial Lawyer| Mining Law Expert| Chartered Banker\Economist",
+    description: `
+    Ennocent Chidawanyika is Coghlan, Welsh & Guest’s Commercial and Corporate lawyer making sure of seamless delivery of effective solutions for clients across boundaries.
+    His expertise covers the cycle of mining – from exploration, mining, and beneficiation to downscaling and closure. His experience ranges from start-up exploration projects to well-established mining projects, and he acts for a wide range of mining companies in all mineral commodity sectors, including the base and precious metals, coal, rare earths, sand and diamonds sectors.
+    Ennocent’s expertise includes advising on mining aspects of equity and asset acquisitions, disposals and corporate restructuring, as well as on distressed mining assets and on royalties in the mining sector. His experience further includes all aspects of regulatory work in the mining and petroleum (upstream) industries, for senior, mid-tier and junior companies, as well as for financial institutions regarding banking and resource-finance projects.
+    Ennocent has done mining title and transactional work in Southern Africa. He has also advised on joint ventures in Zimbabwe and Namibia in addition to advising on the mineral regulatory framework.
+    Before joining the legal field, Ennocent was prominent Senior Corporate Banking Executive who worked for International and local banks and consulted for a regional bank.
+    Ennocent is regularly invited by a regional University to lecture and present papers in the field of mining law and is very widely read. He is recognised as a leading/recommended lawyer by various natural resources institutes.
+    He is a full member of the International Bar Association (IBA) with committee membership in Mining Law, Corporate and M & A Law, and Banking Law.
+    Ennocent was inducted into the Golden Key International Honour Society, which is the world’s largest collegiate honor society for graduates.`,
+  },
+  {
     id: 10,
     name: "Dillon Chemhere",
     position: "Associate",
@@ -174,34 +202,6 @@ const team = [
     Status: "Admitted Legal Practitioner",
     MainPracticeAreas: "Commercial/Corporate Law, General Practice",
     description: `Dillon joined the firm in 2020. As an Associate, he has been working in Corporate and Commercial Law department where he has dealt with various issues of general company law, drafting, and reviewing of agreements related to commercial transactions. Dillon is also interested in litigation work.`,
-  },
-  {
-    id: 11,
-    name: "Ennocent T Chidawanyika",
-    position: "Associate",
-    imageSrc: et,
-    YOR: "2020",
-    Qualifications: `
-     LLB Cum laude (UNISA), 
-     LLM (Law of Mineral and Petroleum Extract and Use) – UCT, 
-     PhD Mining Law candidate- UCT, 
-     Bsc Economics – UZ,
-     MSc Economics – UZ,
-     MBA (Banking & Finance) – NUST,
-     C.A.I.B. (SA),
-     A.I.O.B.(ZIM)`,
-    Status:
-      "Admitted Legal Practitioner, Notary Public, and Conveyancer in Zimbabwe",
-    MainPracticeAreas: "Corporate & Commercial Lawyer| Mining Law Expert| Chartered Banker\Economist",
-    description: `
-    Ennocent Chidawanyika is Coghlan, Welsh & Guest’s Commercial and Corporate lawyer making sure of seamless delivery of effective solutions for clients across boundaries.
-His expertise covers the cycle of mining – from exploration, mining, and beneficiation to downscaling and closure. His experience ranges from start-up exploration projects to well-established mining projects, and he acts for a wide range of mining companies in all mineral commodity sectors, including the base and precious metals, coal, rare earths, sand and diamonds sectors.
-Ennocent’s expertise includes advising on mining aspects of equity and asset acquisitions, disposals and corporate restructuring, as well as on distressed mining assets and on royalties in the mining sector. His experience further includes all aspects of regulatory work in the mining and petroleum (upstream) industries, for senior, mid-tier and junior companies, as well as for financial institutions regarding banking and resource-finance projects.
-Ennocent has done mining title and transactional work in Southern Africa. He has also advised on joint ventures in Zimbabwe and Namibia in addition to advising on the mineral regulatory framework.
-Before joining the legal field, Ennocent was prominent Senior Corporate Banking Executive who worked for International and local banks and consulted for a regional bank.
-Ennocent is regularly invited by a regional University to lecture and present papers in the field of mining law and is very widely read. He is recognised as a leading/recommended lawyer by various natural resources institutes.
-He is a full member of the International Bar Association (IBA) with committee membership in Mining Law, Corporate and M & A Law, and Banking Law.
-Ennocent was inducted into the Golden Key International Honour Society, which is the world’s largest collegiate honor society for graduates.`,
   },
   {
     id: 12,
