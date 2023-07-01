@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d7f1fd6.css",
-    "main.js": "/static/js/main.71664e93.js",
+    "main.js": "/static/js/main.5e779bfe.js",
     "static/media/HighCourt.jpg": "/static/media/HighCourt.8353897a4e7807771c68.jpg",
     "static/media/miningrestrictions.jpg": "/static/media/miningrestrictions.5577604b0029b9a66c13.jpg",
     "static/media/Daniel.jpg": "/static/media/Daniel.0379e825d4b6d94886c7.jpg",
@@ -36,10 +36,10 @@
     "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
     "static/media/mail-outline.svg": "/static/media/mail-outline.413850824ff29c4ae80df43a973302dc.svg",
     "main.9d7f1fd6.css.map": "/static/css/main.9d7f1fd6.css.map",
-    "main.71664e93.js.map": "/static/js/main.71664e93.js.map"
+    "main.5e779bfe.js.map": "/static/js/main.5e779bfe.js.map"
   },
   "entrypoints": [
     "static/css/main.9d7f1fd6.css",
-    "static/js/main.71664e93.js"
+    "static/js/main.5e779bfe.js"
   ]
 }
