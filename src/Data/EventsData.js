@@ -9,6 +9,7 @@ import Ian from '../assets/Ian.jpg'
 import Matlida from '../assets/Matlida.jpg'
 import Mazingi from '../assets/Mazingi.jpg'
 import Moyo from '../assets/Moyo.jpg'
+import Mduduzi from "../assets/Mduduzi.jpg"
 import rm from '../assets/rm.jpeg'
 import Taylor from '../assets/Taylor.jpg'
 import Trc from '../assets/Trc.jpg'
@@ -21,6 +22,8 @@ import image4 from '../assets/image4.jpg'
 import TheLaw from './Stories/TheLaw'
 import Delays from './Stories/Delays'
 import HighCourt from "../assets/HighCourt.jpg"
+import law from "../assets/law.jpg"
+import LabourAmmendment from './Stories/LabourAmmendment'
 
 
 
@@ -30,11 +33,32 @@ import HighCourt from "../assets/HighCourt.jpg"
 export const eventsData = [
   {
     
+    id: '3',
+    eventImg: law,
+    authorImg: dc,
+    authorName: "Dillon Chemhere",
+    authorTitle: "Associate",
+    coAuthorName:"",
+    coAuthorTitle:"",
+    coAuthorImg: "",
+    date: "08 AUGUST 2023",
+    title: "Labour Amendment Discussion: Removal of 3 Months Notice Period",
+    details:  "The new labour amendment repealed section 12(4a) of the Labour Act which allowed both employers and employees to terminate a permanent contract of employment or a contract for a period of two or more years upon giving three months’ notice.",
+    storyParagraph1: <LabourAmmendment/>,
+    storyParagraph2: "This is p2",
+    storyParagraph3: "This is P3",
+    refesences: "",
+    storyParagraph4: "This is P3",
+    storyParagraph5: "This is P3",
+    storyParagraph6: "This is P3",
+  },
+  {
+    
     id: '1',
     eventImg: HighCourt,
-    authorImg: "",
-    authorName: "",
-    authorTitle: "",
+    authorImg: Mduduzi,
+    authorName: " Mduduzi A. Ruwitah ",
+    authorTitle: "Associate",
     coAuthorName:"",
     coAuthorTitle:"",
     coAuthorImg: "",
@@ -71,6 +95,10 @@ export const eventsData = [
     storyParagraph5: "This is P3",
     storyParagraph6: "This is P3",
   },
+
+  
+  
+
 
 ];
 
